@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		161F3D106CB14F2DB288A78F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D239918DAE04F80B49EE85A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4AEE815206304D08A9D9347D /* CMake Rules */,
+			);
+			dependencies = (
+				504FEA54157B4E549C75B1CC /* PBXTargetDependency */,
+				F700AF0CCF304042A2A06013 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		39995F7C28C94F5E8C1F4D98 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF9FC0051628419DAE367E85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A2C8A1749B664BB28AE414BF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1937A474C51C42B292A526E3 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = C7ED150E69D74FCF806FE529 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/input.c */; };
+		1DD2D967B5FB49A2AEA398E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = AE7F9451C03D451FB73A52FB /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3.h */; };
+		29CF4CAE8F034F1C8A625943 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 9074192FD4554F33ABE0A83F /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_window.m */; };
+		2A15D03C25BE4C85975C19B9 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = 3AAE5E207C394FD997364D9E /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/window.c */; };
+		566161F0EF8442BAB8BB0097 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 39AF195490D340A38B91356B /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.c */; };
+		5CCC65F8E5DB486C94E03CFD /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 9DE91FC2E14B4D73B929C6F5 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.m */; };
+		65D9C068B0054A9393B548EE /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 4D2EB97535E24B338FB7FCE3 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_platform.h */; };
+		67D84868AA7B40849276A523 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3A094CF73432416D9FA3EC3A /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/CMakeLists.txt */; };
+		814CB89908084F8DBF3ED6F5 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 14705700679749479EC34A14 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_time.c */; };
+		8B0F5E2E5AB54213986AC59D /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = A173449C391240AD8E02A2DA /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/internal.h */; };
+		8CEC07FB1C954CB6B059A967 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = AB37D2C9396F4EE9808579E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3native.h */; };
+		9C4DF2165FCF4A06A2C2C214 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 0D53E676D52542B28DAE9BB7 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src/glfw_config.h */; };
+		A83DF33FEAE04D3EA92006B6 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 708FAE917BFA486CB34BD836 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/monitor.c */; };
+		A8FF9AF7CE724477B4A2E183 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 6D8FE4D527B1490BA02FD088 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.h */; };
+		AE7CF97F47984DCE9B717A9B /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = E572678C1B1E45F7B78B7044 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.h */; };
+		C33C2CF50CAA490BB8336CC8 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = EE14C197938B471384FB6E1E /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.h */; };
+		D61CE6224309486D83B2746F /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 8BC296A205FF4EA2BE0C1EE7 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/vulkan.c */; };
+		D6BCF8C8A6154D1CA3282A34 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 30D6556464404F8A8495B2D2 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_init.m */; };
+		DC86D196B99D44A2A30B47AF /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 29421697BAF64FB7814E0921 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/init.c */; };
+		EFC6E31867F542449691600A /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = BC07796559754877A5C668E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_monitor.m */; };
+		F0B056C2FD5E4DB580C26130 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = F344A13B9FAB4E58BB5E04FF /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.m */; };
+		F3DD2AF8C46C40DA8F3C3E99 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 7E4A6CE08E1D4F18842245CE /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/context.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		99DA719AA0FE4544BC3B6F28 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		9D35DE6379B74280B642C5F9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E44CB1C9A4574D8981AF98AD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FFDFAF8AD4284B779230C9C2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0451E383502D40A4ABEEF638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39C583470FE4A3D974AAC87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12856ADCA4754B4DB0189DF9;
+			remoteInfo = glfw;
+		};
+		79D9B571032F404CB8693DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39C583470FE4A3D974AAC87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39995F7C28C94F5E8C1F4D98;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D53E676D52542B28DAE9BB7 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		14705700679749479EC34A14 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		29421697BAF64FB7814E0921 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		30D6556464404F8A8495B2D2 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		39AF195490D340A38B91356B /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		3A094CF73432416D9FA3EC3A /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3AAE5E207C394FD997364D9E /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		4D2EB97535E24B338FB7FCE3 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		6D8FE4D527B1490BA02FD088 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		708FAE917BFA486CB34BD836 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		7E4A6CE08E1D4F18842245CE /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		8BC296A205FF4EA2BE0C1EE7 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		9074192FD4554F33ABE0A83F /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		9DE91FC2E14B4D73B929C6F5 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		A173449C391240AD8E02A2DA /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		A3C73ECB5CF7413E944A6E81 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB37D2C9396F4EE9808579E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		AE7F9451C03D451FB73A52FB /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		BC07796559754877A5C668E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		C7ED150E69D74FCF806FE529 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		D03BBC96100F417CA4118B87 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E572678C1B1E45F7B78B7044 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		EE14C197938B471384FB6E1E /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		F344A13B9FAB4E58BB5E04FF /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06D3E7BC675945EAB771BDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C73ECB5CF7413E944A6E81 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F1FFBDA3A174AAFBCFE7F59 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		24F0396C7DCF42F6B30B2C92 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D53E676D52542B28DAE9BB7 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src/glfw_config.h */,
+				AE7F9451C03D451FB73A52FB /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3.h */,
+				AB37D2C9396F4EE9808579E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include/GLFW/glfw3native.h */,
+				E572678C1B1E45F7B78B7044 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.h */,
+				4D2EB97535E24B338FB7FCE3 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_platform.h */,
+				A173449C391240AD8E02A2DA /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/internal.h */,
+				EE14C197938B471384FB6E1E /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.h */,
+				6D8FE4D527B1490BA02FD088 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		35BB8678CADA493B8A0D783C /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				9D12BA5C6EE1427AA9110FBF /* Source Files */,
+				24F0396C7DCF42F6B30B2C92 /* Header Files */,
+				3A094CF73432416D9FA3EC3A /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		9D12BA5C6EE1427AA9110FBF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D6556464404F8A8495B2D2 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_init.m */,
+				F344A13B9FAB4E58BB5E04FF /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.m */,
+				BC07796559754877A5C668E4 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_monitor.m */,
+				14705700679749479EC34A14 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_time.c */,
+				9074192FD4554F33ABE0A83F /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_window.m */,
+				7E4A6CE08E1D4F18842245CE /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/context.c */,
+				29421697BAF64FB7814E0921 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/init.c */,
+				C7ED150E69D74FCF806FE529 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/input.c */,
+				708FAE917BFA486CB34BD836 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/monitor.c */,
+				9DE91FC2E14B4D73B929C6F5 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.m */,
+				39AF195490D340A38B91356B /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.c */,
+				8BC296A205FF4EA2BE0C1EE7 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/vulkan.c */,
+				3AAE5E207C394FD997364D9E /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B36FF9D30AE14AEFAE497A96 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				35BB8678CADA493B8A0D783C /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		B4FF67F08E4240799B58E2A7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0F1FFBDA3A174AAFBCFE7F59 /* CMake Rules */,
+				D03BBC96100F417CA4118B87 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DAD7DD15A5504B1C946220FB = {
+			isa = PBXGroup;
+			children = (
+				B4FF67F08E4240799B58E2A7 /* ALL_BUILD */,
+				B36FF9D30AE14AEFAE497A96 /* GLFW3 */,
+				06D3E7BC675945EAB771BDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12856ADCA4754B4DB0189DF9 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93737505AED94E9DA2E5A470 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				B78845510F1545C9A02082A8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = A3C73ECB5CF7413E944A6E81 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39C583470FE4A3D974AAC87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = 6E81B64B7EFC4750BDF03A00 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FFDFAF8AD4284B779230C9C2 /* Debug */,
+				E44CB1C9A4574D8981AF98AD /* Release */,
+				99DA719AA0FE4544BC3B6F28 /* MinSizeRel */,
+				9D35DE6379B74280B642C5F9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DAD7DD15A5504B1C946220FB;
+			projectDirPath = "../../glfw-3.2";
+			projectRoot = "";
+			targets = (
+				161F3D106CB14F2DB288A78F /* ALL_BUILD */,
+				39995F7C28C94F5E8C1F4D98 /* ZERO_CHECK */,
+				12856ADCA4754B4DB0189DF9 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1081456AA33F4033AAD06E0E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1DC005266A054DFAAD77A8D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4AEE815206304D08A9D9347D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2 -f /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A2C8A1749B664BB28AE414BF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2 -f /Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78845510F1545C9A02082A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6BCF8C8A6154D1CA3282A34 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_init.m */,
+				F0B056C2FD5E4DB580C26130 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_joystick.m */,
+				EFC6E31867F542449691600A /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_monitor.m */,
+				814CB89908084F8DBF3ED6F5 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_time.c */,
+				29CF4CAE8F034F1C8A625943 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/cocoa_window.m */,
+				F3DD2AF8C46C40DA8F3C3E99 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/context.c */,
+				DC86D196B99D44A2A30B47AF /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/init.c */,
+				1937A474C51C42B292A526E3 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/input.c */,
+				A83DF33FEAE04D3EA92006B6 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/monitor.c */,
+				5CCC65F8E5DB486C94E03CFD /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/nsgl_context.m */,
+				566161F0EF8442BAB8BB0097 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/posix_tls.c */,
+				D61CE6224309486D83B2746F /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/vulkan.c */,
+				2A15D03C25BE4C85975C19B9 /* /Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504FEA54157B4E549C75B1CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39995F7C28C94F5E8C1F4D98 /* ZERO_CHECK */;
+			targetProxy = 79D9B571032F404CB8693DB1 /* PBXContainerItemProxy */;
+		};
+		F700AF0CCF304042A2A06013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12856ADCA4754B4DB0189DF9 /* glfw */;
+			targetProxy = 0451E383502D40A4ABEEF638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A7629142B8A42B08D539E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4EDE2BD4659B46FA9CD2DA6D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/build";
+			};
+			name = RelWithDebInfo;
+		};
+		58DF95DCCEF948B6814D3236 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		59BA37D30BEF49359977CEA2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		714CE6C9AA9D4F92A07ACB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include","/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src","/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		91D9E6059F4C4D9DAC194CE1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		97429E610A994A08858D5659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/build";
+			};
+			name = Release;
+		};
+		9A86F8F9E1CF42B1A4F1CBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ACE91C4C94CD4600B172DB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/build";
+			};
+			name = Debug;
+		};
+		B3A0368BC5934A2E9ED0EFBE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include","/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src","/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B73AE4FA175340E2903637BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BB40E76F09D94C608B7A2B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D4D33ADD696143F4A99FC3B1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include","/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src","/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DF040452D9F74F5C8EF9CACF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EABBFFAAFE194EF881B5292B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/include","/Users/davidziman/graphics/module-algorithms-geam-traphics/glfw-3.2/src","/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ED95CE610DA846D8B132612E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E81B64B7EFC4750BDF03A00 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE91C4C94CD4600B172DB46 /* Debug */,
+				97429E610A994A08858D5659 /* Release */,
+				ED95CE610DA846D8B132612E /* MinSizeRel */,
+				4EDE2BD4659B46FA9CD2DA6D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93737505AED94E9DA2E5A470 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABBFFAAFE194EF881B5292B /* Debug */,
+				714CE6C9AA9D4F92A07ACB46 /* Release */,
+				B3A0368BC5934A2E9ED0EFBE /* MinSizeRel */,
+				D4D33ADD696143F4A99FC3B1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D239918DAE04F80B49EE85A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7629142B8A42B08D539E30 /* Debug */,
+				9A86F8F9E1CF42B1A4F1CBC8 /* Release */,
+				91D9E6059F4C4D9DAC194CE1 /* MinSizeRel */,
+				58DF95DCCEF948B6814D3236 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF9FC0051628419DAE367E85 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73AE4FA175340E2903637BE /* Debug */,
+				BB40E76F09D94C608B7A2B06 /* Release */,
+				DF040452D9F74F5C8EF9CACF /* MinSizeRel */,
+				59BA37D30BEF49359977CEA2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39C583470FE4A3D974AAC87 /* Project object */;
+}

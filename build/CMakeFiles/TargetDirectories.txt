@@ -1,0 +1,7 @@
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/CMakeFiles/inside_outside.dir
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/CMakeFiles/glad.dir
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/CMakeFiles/ALL_BUILD.dir
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/CMakeFiles/ZERO_CHECK.dir
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
+/Users/davidziman/graphics/module-algorithms-geam-traphics/build/glfw-3.2/src/CMakeFiles/glfw.dir

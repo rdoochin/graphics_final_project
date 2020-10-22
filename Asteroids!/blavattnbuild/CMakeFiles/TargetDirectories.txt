@@ -1,0 +1,7 @@
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/glad.dir
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/ALL_BUILD.dir
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/ZERO_CHECK.dir
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
+/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/CMakeFiles/glfw.dir

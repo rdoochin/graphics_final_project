@@ -1,0 +1,1189 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0F80DD20B2AC4F2CB830871E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 520AA61B987F4C2490621F53 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0E4E8E4155E24753BF8B36D9 /* CMake Rules */,
+			);
+			dependencies = (
+				CA596E117D45479190FF6CAB /* PBXTargetDependency */,
+				F68E8FEB2ACD4021BF10CA0A /* PBXTargetDependency */,
+				DC8B4FF1544146159B88A4C1 /* PBXTargetDependency */,
+				0E245F06EC81439C83EA2C14 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		154DD4408F2D4BE3A61ECD94 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE6D0D9814FB443C8F243DE6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				23C22CFB6EE24031A8577DBF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0115664900B3447DA63607F0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 8B8C9A81FE464D34BE0788CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */; };
+		0794A2FA66D94C81A485BC6C /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 6338BA040C5A4CD19062E03F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */; };
+		0824D4DA7E17478F8484A109 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/Angel.h */ = {isa = PBXBuildFile; fileRef = 6C3EE6ECF7E4471E8F701B46 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/Angel.h */; };
+		1553ACFB5F944E7B8C1C0C7A /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/CheckError.h */ = {isa = PBXBuildFile; fileRef = 38A2BD538192470183A130FB /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/CheckError.h */; };
+		160521DB1C1642D7B89AE6BC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/shader.cpp */ = {isa = PBXBuildFile; fileRef = E22CD52B699F4D258E8FBFD4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/shader.cpp */; };
+		1F5D284B5CFD45DBBF734C0D /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 324358A868954FE4AF44A8B3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */; };
+		2491AEFA41A248A2A8DC6CD0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 8F5B1165450949779003B912 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */; };
+		2CB3C396267C4DB68D7D16A8 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = 8F48E45552C44D4DBEAFC0BE /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/input.c */; };
+		35601BC7463F4C4184EF1199 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 873BCB0BC4B84383A63A4CB4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */; };
+		44249298307145D8B95B15F3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 94128F583770440C950267AD /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */; };
+		480E6DEDF0B44B6C9183331D /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/vshader_Ship.glsl */ = {isa = PBXBuildFile; fileRef = 1E9A4C7C3F7B434F9254A69B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/vshader_Ship.glsl */; };
+		4A19774E865842C5825EEAFF /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/fshader_Ship.glsl */ = {isa = PBXBuildFile; fileRef = 298209ACD8C247DFA6CF09E6 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/fshader_Ship.glsl */; };
+		4B654D72B33449189C58D1DF /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 65CD73EF67884565A17CBA52 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */; };
+		673FC498A46149D58F700A7D /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = A13527C1092D48A0B5D1FBC0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/glfw_config.h */; };
+		6ACB01BE73BD43B8A4049322 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 9A6691C2CFD44B4F9A7A71C8 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */; };
+		7290EAC36D0B43CFB8CC2E8B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = F38CF80BD5914BB1BD12F804 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */; };
+		793AA5AC66A344E79C9BE8FD /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/mat.h */ = {isa = PBXBuildFile; fileRef = 1F611F92BD544D459D94C939 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/mat.h */; };
+		7F82BF4642394C8F996E9485 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad.c */ = {isa = PBXBuildFile; fileRef = 875CB4935AD04C2FB5372EE9 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad.c */; };
+		80A4DD8E19B24178BEDCA5A5 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 8FDE7EE5C7C045B2B78B3ED2 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */; };
+		80E9C8090CD248969DC2C52B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = AFEA072423DF455797100459 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/window.c */; };
+		861BE2ADA3CE43A0B3102BE1 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 74573E86F3C14E629AAD72D0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */; };
+		88704052F1164D6FB82CE7BE /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = E5251FD250F6441C9D8AFCDA /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/context.c */; };
+		91DAA40B968044CEBB44082A /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 109BBA896AC44E87BD6C96F0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */; };
+		A53CCC475C5643709A5E9D7F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F6CE14045CDC4D0AAFC4B2A7 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist */; };
+		A6D0D04D635D41FB965CCFC9 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 841B2099806C4942995DDA0B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */; };
+		A859BFE44C7B41778A37A232 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 05C7AB753292430F95E14F7E /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */; };
+		AB999A0004EA482CBB1F1B65 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = D701F36DA7634DF1A11FE038 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/init.c */; };
+		B20552EA5C7C4A67A3415E23 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/vec.h */ = {isa = PBXBuildFile; fileRef = 8AA5040F12E040198FE176B0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/vec.h */; };
+		BA8423FF28234637842B4222 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/main.cpp */ = {isa = PBXBuildFile; fileRef = 660FFF4884C047849F934314 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/main.cpp */; };
+		C6AE4816422845EB9D0DE34E /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 468F017FFFAB44BF963DC768 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */; };
+		CA71483ACEDF4DB8B03C171A /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad/glad.h */ = {isa = PBXBuildFile; fileRef = 1E0AEE9C2D8B4354BF2B3DFF /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad/glad.h */; };
+		CCCD8A73E395462CAEA446C4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.h */ = {isa = PBXBuildFile; fileRef = DED83D4E93164EDD87D16B11 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.h */; };
+		CF4F06CB201D48F78546170F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.cpp */ = {isa = PBXBuildFile; fileRef = D7C1997CCBEA4D25B0E25737 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.cpp */; };
+		D04C3B90BC4C4B76B9F285CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 597A9EAB36AA47F490789AFB /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */; };
+		EE1567A2944B4F50B3CB55D7 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common.h */ = {isa = PBXBuildFile; fileRef = DEEF01D70F9148D5A908B7CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common.h */; };
+		F230C8D7C8124915BF42EDB8 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AB9F5FEB8754425094B96EB2 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */; };
+		FC0CC806F33349A4A7EB316F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 5BBA991E15CF4360ADB4E779 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */; };
+		FD873863EC6748D1B8A45A7E /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 48134CE8CB1F48DEBB5464D3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		48BAB4297EFE426F9033C598 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A313F94C7ACF453889A5236A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C123132E52CC4723BF591C1E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		DB05D50C2E4843138C126867 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3E813B96FF5346CDAAC27BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154DD4408F2D4BE3A61ECD94;
+			remoteInfo = ZERO_CHECK;
+		};
+		6651F750BAEF406E8A7D3024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FAA51CE45D4EB8AC3215EE;
+			remoteInfo = glad;
+		};
+		6CCA6F92CA0146B8977DDC84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0256D4DFA92742B8873B8BD1;
+			remoteInfo = glfw;
+		};
+		8BD58F46873044DCBD5B06D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0256D4DFA92742B8873B8BD1;
+			remoteInfo = glfw;
+		};
+		8D16F425BA094580968E9C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F517B24DF0458DA443D875;
+			remoteInfo = asteroids;
+		};
+		998DD24F152C4928B18F1ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154DD4408F2D4BE3A61ECD94;
+			remoteInfo = ZERO_CHECK;
+		};
+		B8D29E8C7E4744A091169644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154DD4408F2D4BE3A61ECD94;
+			remoteInfo = ZERO_CHECK;
+		};
+		C483503FE7774F26B35FC3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FAA51CE45D4EB8AC3215EE;
+			remoteInfo = glad;
+		};
+		FE3AD40219D843A898207EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60A46CCDCAED434E8246352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0256D4DFA92742B8873B8BD1;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C7AB753292430F95E14F7E /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		109BBA896AC44E87BD6C96F0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		1E0AEE9C2D8B4354BF2B3DFF /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
+		1E9A4C7C3F7B434F9254A69B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/vshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ship.glsl; path = shaders/vshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		1F611F92BD544D459D94C939 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/utils/mat.h; sourceTree = SOURCE_ROOT; };
+		298209ACD8C247DFA6CF09E6 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/fshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ship.glsl; path = shaders/fshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		324358A868954FE4AF44A8B3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		38A2BD538192470183A130FB /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/utils/CheckError.h; sourceTree = SOURCE_ROOT; };
+		44A61E7FCC8345BEB90E262A /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		468F017FFFAB44BF963DC768 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		48134CE8CB1F48DEBB5464D3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		4BF465943A21420FAF1D70B0 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		597A9EAB36AA47F490789AFB /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		5BBA991E15CF4360ADB4E779 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		6338BA040C5A4CD19062E03F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		65CD73EF67884565A17CBA52 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		660FFF4884C047849F934314 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		6C3EE6ECF7E4471E8F701B46 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/Angel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Angel.h; path = source/utils/Angel.h; sourceTree = SOURCE_ROOT; };
+		74573E86F3C14E629AAD72D0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		841B2099806C4942995DDA0B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		873BCB0BC4B84383A63A4CB4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		875CB4935AD04C2FB5372EE9 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
+		8AA5040F12E040198FE176B0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/utils/vec.h; sourceTree = SOURCE_ROOT; };
+		8AA991E80E714FCA85F4C803 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8B8C9A81FE464D34BE0788CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		8F48E45552C44D4DBEAFC0BE /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
+		8F5B1165450949779003B912 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		8FDE7EE5C7C045B2B78B3ED2 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		94128F583770440C950267AD /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		9A6691C2CFD44B4F9A7A71C8 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		9CCC7E3435AF4C95B569841F /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = asteroids; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13527C1092D48A0B5D1FBC0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "blavattnbuild/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		AB9F5FEB8754425094B96EB2 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AFEA072423DF455797100459 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
+		D701F36DA7634DF1A11FE038 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
+		D7C1997CCBEA4D25B0E25737 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
+		DED83D4E93164EDD87D16B11 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
+		DEEF01D70F9148D5A908B7CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common.h; sourceTree = SOURCE_ROOT; };
+		E22CD52B699F4D258E8FBFD4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = shaders/shader.cpp; sourceTree = SOURCE_ROOT; };
+		E5251FD250F6441C9D8AFCDA /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
+		F38CF80BD5914BB1BD12F804 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		F6CE14045CDC4D0AAFC4B2A7 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = blavattnbuild/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02CE47491CF4414091DA0133 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF1EC8D17542128B551DB3 /* Source Files */,
+				7FB6A07FA22340B2B7D45C7B /* Header Files */,
+				841B2099806C4942995DDA0B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		0CCF1EC8D17542128B551DB3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38CF80BD5914BB1BD12F804 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */,
+				109BBA896AC44E87BD6C96F0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
+				324358A868954FE4AF44A8B3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
+				8F5B1165450949779003B912 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */,
+				9A6691C2CFD44B4F9A7A71C8 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */,
+				E5251FD250F6441C9D8AFCDA /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/context.c */,
+				D701F36DA7634DF1A11FE038 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/init.c */,
+				8F48E45552C44D4DBEAFC0BE /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/input.c */,
+				468F017FFFAB44BF963DC768 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */,
+				74573E86F3C14E629AAD72D0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */,
+				6338BA040C5A4CD19062E03F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */,
+				8FDE7EE5C7C045B2B78B3ED2 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */,
+				AFEA072423DF455797100459 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1D9CF88959D844A0972668D6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E22CD52B699F4D258E8FBFD4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/shader.cpp */,
+				D7C1997CCBEA4D25B0E25737 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.cpp */,
+				660FFF4884C047849F934314 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		28B5D0D4A23E4D33B3BBC0DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CCC7E3435AF4C95B569841F /* asteroids */,
+				44A61E7FCC8345BEB90E262A /* glad */,
+				4BF465943A21420FAF1D70B0 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DA1003DD234C83A30F43CB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3F9BF613C04547D8B0333A8A /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				52F1C2AB56B5417E9FD11DB7 /* Header Files */,
+				6817A510E2114A26AC1EC9E6 /* Source Files */,
+				05C7AB753292430F95E14F7E /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		52F1C2AB56B5417E9FD11DB7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E0AEE9C2D8B4354BF2B3DFF /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad/glad.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		61A6FAED2B7B4D1EA0FA7D50 = {
+			isa = PBXGroup;
+			children = (
+				A9770E226F9445E4BFF8E06E /* asteroids */,
+				3F9BF613C04547D8B0333A8A /* glad */,
+				CA1E67412C964AFA913FB8F0 /* ALL_BUILD */,
+				93ED79F0B14F446DA9E3CD18 /* GLFW3 */,
+				28B5D0D4A23E4D33B3BBC0DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6817A510E2114A26AC1EC9E6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				875CB4935AD04C2FB5372EE9 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7FB6A07FA22340B2B7D45C7B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13527C1092D48A0B5D1FBC0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/glfw_config.h */,
+				48134CE8CB1F48DEBB5464D3 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */,
+				5BBA991E15CF4360ADB4E779 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */,
+				65CD73EF67884565A17CBA52 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */,
+				94128F583770440C950267AD /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */,
+				8B8C9A81FE464D34BE0788CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */,
+				873BCB0BC4B84383A63A4CB4 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */,
+				597A9EAB36AA47F490789AFB /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		93ED79F0B14F446DA9E3CD18 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				02CE47491CF4414091DA0133 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		A9770E226F9445E4BFF8E06E /* asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				C0EBA73EA2094025A9E01809 /* Header Files */,
+				1D9CF88959D844A0972668D6 /* Source Files */,
+				FA4BC817372745D89216244E /* Resources */,
+				AB9F5FEB8754425094B96EB2 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */,
+				298209ACD8C247DFA6CF09E6 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/fshader_Ship.glsl */,
+				1E9A4C7C3F7B434F9254A69B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/vshader_Ship.glsl */,
+			);
+			name = asteroids;
+			sourceTree = "<group>";
+		};
+		C0EBA73EA2094025A9E01809 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED83D4E93164EDD87D16B11 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.h */,
+				DEEF01D70F9148D5A908B7CC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common.h */,
+				6C3EE6ECF7E4471E8F701B46 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/Angel.h */,
+				38A2BD538192470183A130FB /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/CheckError.h */,
+				1F611F92BD544D459D94C939 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/mat.h */,
+				8AA5040F12E040198FE176B0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/utils/vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CA1E67412C964AFA913FB8F0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				34DA1003DD234C83A30F43CB /* CMake Rules */,
+				8AA991E80E714FCA85F4C803 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FA4BC817372745D89216244E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6CE14045CDC4D0AAFC4B2A7 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0256D4DFA92742B8873B8BD1 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408D46379FC6415DB6D0AD12 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				3B60E2F5172B4A249FB4B073 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 4BF465943A21420FAF1D70B0 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		19FAA51CE45D4EB8AC3215EE /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BFD221F60B4622BE9164C3 /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				9C501A7BE92E48179C86454A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFA7D959105411C8B515C1C /* PBXTargetDependency */,
+				5D01254F1C6E469DB7C4AF41 /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = 44A61E7FCC8345BEB90E262A /* glad */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9F517B24DF0458DA443D875 /* asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D4342ADA134402A0736452 /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildPhases = (
+				937A7266DE8B42F894E176CD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9681EFA51544408F8180AD0E /* PBXTargetDependency */,
+				5ED118E4CC704C7E8C8E4E53 /* PBXTargetDependency */,
+				6F9BB0172F0548CAB3C01A0A /* PBXTargetDependency */,
+			);
+			name = asteroids;
+			productName = asteroids;
+			productReference = 9CCC7E3435AF4C95B569841F /* asteroids */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60A46CCDCAED434E8246352D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = 430E83E56DFF47C0A429B454 /* Build configuration list for PBXProject "ASTEROIDS" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DB05D50C2E4843138C126867 /* Debug */,
+				A313F94C7ACF453889A5236A /* Release */,
+				48BAB4297EFE426F9033C598 /* MinSizeRel */,
+				C123132E52CC4723BF591C1E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 61A6FAED2B7B4D1EA0FA7D50;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0F80DD20B2AC4F2CB830871E /* ALL_BUILD */,
+				154DD4408F2D4BE3A61ECD94 /* ZERO_CHECK */,
+				D9F517B24DF0458DA443D875 /* asteroids */,
+				19FAA51CE45D4EB8AC3215EE /* glad */,
+				0256D4DFA92742B8873B8BD1 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E4E8E4155E24753BF8B36D9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild -f /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		1216C89B8D2E43848A648D96 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		23C22CFB6EE24031A8577DBF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild -f /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		78D8B4DD27F44D8DB38F1C2E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B60E2F5172B4A249FB4B073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7290EAC36D0B43CFB8CC2E8B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */,
+				91DAA40B968044CEBB44082A /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
+				1F5D284B5CFD45DBBF734C0D /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
+				2491AEFA41A248A2A8DC6CD0 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */,
+				6ACB01BE73BD43B8A4049322 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */,
+				88704052F1164D6FB82CE7BE /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/context.c */,
+				AB999A0004EA482CBB1F1B65 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/init.c */,
+				2CB3C396267C4DB68D7D16A8 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/input.c */,
+				C6AE4816422845EB9D0DE34E /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */,
+				861BE2ADA3CE43A0B3102BE1 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */,
+				0794A2FA66D94C81A485BC6C /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */,
+				80A4DD8E19B24178BEDCA5A5 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */,
+				80E9C8090CD248969DC2C52B /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937A7266DE8B42F894E176CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160521DB1C1642D7B89AE6BC /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders/shader.cpp */,
+				CF4F06CB201D48F78546170F /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/Ship.cpp */,
+				BA8423FF28234637842B4222 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C501A7BE92E48179C86454A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F82BF4642394C8F996E9485 /* /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps/glad.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E245F06EC81439C83EA2C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154DD4408F2D4BE3A61ECD94 /* ZERO_CHECK */;
+			targetProxy = 998DD24F152C4928B18F1ACC /* PBXContainerItemProxy */;
+		};
+		5D01254F1C6E469DB7C4AF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154DD4408F2D4BE3A61ECD94 /* ZERO_CHECK */;
+			targetProxy = B8D29E8C7E4744A091169644 /* PBXContainerItemProxy */;
+		};
+		5ED118E4CC704C7E8C8E4E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FAA51CE45D4EB8AC3215EE /* glad */;
+			targetProxy = 6651F750BAEF406E8A7D3024 /* PBXContainerItemProxy */;
+		};
+		6F9BB0172F0548CAB3C01A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154DD4408F2D4BE3A61ECD94 /* ZERO_CHECK */;
+			targetProxy = 3E813B96FF5346CDAAC27BE9 /* PBXContainerItemProxy */;
+		};
+		9681EFA51544408F8180AD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0256D4DFA92742B8873B8BD1 /* glfw */;
+			targetProxy = FE3AD40219D843A898207EC4 /* PBXContainerItemProxy */;
+		};
+		CA596E117D45479190FF6CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F517B24DF0458DA443D875 /* asteroids */;
+			targetProxy = 8D16F425BA094580968E9C03 /* PBXContainerItemProxy */;
+		};
+		DC8B4FF1544146159B88A4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FAA51CE45D4EB8AC3215EE /* glad */;
+			targetProxy = C483503FE7774F26B35FC3FF /* PBXContainerItemProxy */;
+		};
+		F68E8FEB2ACD4021BF10CA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0256D4DFA92742B8873B8BD1 /* glfw */;
+			targetProxy = 8BD58F46873044DCBD5B06D9 /* PBXContainerItemProxy */;
+		};
+		FEFA7D959105411C8B515C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0256D4DFA92742B8873B8BD1 /* glfw */;
+			targetProxy = 6CCA6F92CA0146B8977DDC84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15ABA542A87D40ACBB71703C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2F20B8FEDBC54FF1A3CA8836 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		368B88A535704F10819F0265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		49A6133ECFE54C289291EFDD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		56B6691971424A549398A36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		586B502078F84D65B20D9F02 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6008C1B4AEC64D4DA954E44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/build";
+			};
+			name = Release;
+		};
+		6DE2C36407294D7CA1EFF083 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B2184F0DDEF4BDAA3B88486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/build";
+			};
+			name = Debug;
+		};
+		8B1C778DEE774A609D3499BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INFOPLIST_FILE = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/Debug/libglfw3.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/Debug/libglad.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/Debug/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		91C538395EC74B7881E47A94 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		953221DA16BB46D484BF4FB9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INFOPLIST_FILE = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/MinSizeRel/libglfw3.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/MinSizeRel/libglad.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/MinSizeRel/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		97536D55B48648BD9634619B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98F3C83D02FC48FBAAEB2765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AF25DD0636F045D9938F8F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DEB2E486FB4345A1845AFD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E1133D2EFAA04ED88AADB5F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		E8D65BB34E584EE982BF55D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EE9544B5AEB04DBDAD33DB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F213580A706444A8B2A0645F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INFOPLIST_FILE = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/Release/libglfw3.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/Release/libglad.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/Release/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F487D29976E347568000B432 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F81A9128E4544C70AB20A741 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FD1D2B6A70284865BD2ED67A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/deps","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/source/common","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/shaders","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include");
+				INFOPLIST_FILE = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/CMakeFiles/asteroids.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/RelWithDebInfo/libglfw3.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/RelWithDebInfo/libglad.a /Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src/RelWithDebInfo/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = asteroids;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FEE435AD379E47368D26C0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/include","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/glfw-3.2/src","/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaredblavatt/Documents/GitHub/module-transformations-geam-traphics/Asteroids!/blavattnbuild/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408D46379FC6415DB6D0AD12 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE435AD379E47368D26C0F1 /* Debug */,
+				98F3C83D02FC48FBAAEB2765 /* Release */,
+				91C538395EC74B7881E47A94 /* MinSizeRel */,
+				F81A9128E4544C70AB20A741 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		430E83E56DFF47C0A429B454 /* Build configuration list for PBXProject "ASTEROIDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2184F0DDEF4BDAA3B88486 /* Debug */,
+				6008C1B4AEC64D4DA954E44E /* Release */,
+				E1133D2EFAA04ED88AADB5F9 /* MinSizeRel */,
+				49A6133ECFE54C289291EFDD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		520AA61B987F4C2490621F53 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B6691971424A549398A36C /* Debug */,
+				EE9544B5AEB04DBDAD33DB1A /* Release */,
+				15ABA542A87D40ACBB71703C /* MinSizeRel */,
+				2F20B8FEDBC54FF1A3CA8836 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57D4342ADA134402A0736452 /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1C778DEE774A609D3499BE /* Debug */,
+				F213580A706444A8B2A0645F /* Release */,
+				953221DA16BB46D484BF4FB9 /* MinSizeRel */,
+				FD1D2B6A70284865BD2ED67A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		65BFD221F60B4622BE9164C3 /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25DD0636F045D9938F8F1D /* Debug */,
+				368B88A535704F10819F0265 /* Release */,
+				6DE2C36407294D7CA1EFF083 /* MinSizeRel */,
+				97536D55B48648BD9634619B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE6D0D9814FB443C8F243DE6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB2E486FB4345A1845AFD71 /* Debug */,
+				E8D65BB34E584EE982BF55D9 /* Release */,
+				586B502078F84D65B20D9F02 /* MinSizeRel */,
+				F487D29976E347568000B432 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60A46CCDCAED434E8246352D /* Project object */;
+}
