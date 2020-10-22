@@ -16,6 +16,7 @@ myAstroid::myAstroid(){
 
     state.astroid_pointing = vec2(0,1);
   // Set up initial state here
+  // test comment
     astroid_vert[0] = vec2(-0.65,  0.25);
     astroid_vert[1] = vec2(-0.6,  0.2);
     astroid_vert[2] = vec2(-0.7,  0.1);
