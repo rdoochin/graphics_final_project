@@ -22,5 +22,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/rebekahdoochin/senior
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/glfw3Config.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/glfw_config.h.in))
 
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/Applications/CMake.app/Contents/bin/cmake -H/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids! -B/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/Applications/CMake.app/Contents/bin/cmake -H/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids! -B/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build

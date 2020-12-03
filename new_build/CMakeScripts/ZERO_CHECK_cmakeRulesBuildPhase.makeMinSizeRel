@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/ZERO_CHECK
+	/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/ZERO_CHECK
 
 
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/ZERO_CHECK: 
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeScripts/ReRunCMake.make
+	make -f /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeScripts/ReRunCMake.make
