@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		25D9C8E045A4404EA5E3BF0D /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9AEECC16551A4239811ECC24 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 2965D1F94C924017AF455E1B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				F3FDA13C3076436A966921CF /* CMake Rules */,
+				B334175C830C4E87832F6F4F /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,13 +20,13 @@
 		};
 		D15DEEB73EB94C9BBFBBB966 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 80E6D47D38CB40C19FFE5DF6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 08E2E0B4DD904075B530E38A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				C1A6819CF0BD44CC80704A02 /* CMake Rules */,
+				24019935577E4C3581631C06 /* CMake Rules */,
 			);
 			dependencies = (
-				03FC137089BA4BF58907B448 /* PBXTargetDependency */,
-				9A46F4A3622E49019245D2F1 /* PBXTargetDependency */,
+				77690C1BE4F54FEFAD3EA338 /* PBXTargetDependency */,
+				C9C9E8516D6E47FA8C6F01DD /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,77 +34,77 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		09664A9A9923473E9BA7F5E1 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 544DB129D1B9488BB7DB5228 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */; };
-		284A3EC235184633AF336387 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 1247C2AD5D524641B705B393 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */; };
-		2BAB20660BAD422892B2998D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 9B47EA3149794D6EB066D538 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */; };
-		2F153815421C4E0F92EBA36C /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 22DCE6D894D64179AB21A255 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */; };
-		31DCDC8CD40C457E99E82674 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 89AC08341912448AAC07992F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */; };
-		36ED17B95960407BB9560FA9 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = B27035963C1646A2A668AF40 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */; };
-		38EED08081E941C0A5AD4314 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = A9F0E9F21965482D9F801976 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src/glfw_config.h */; };
-		3BDC7B57EF6C4042B4DDDE0B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 731EC46A461244FAA2152685 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */; };
-		4B7F5CB233E04F109477094F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 42F360A87ABD4CE08E3A3916 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */; };
-		7E08A55D13DB432BB9DE5E0A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 5D18AF9A59E84247985D447A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */; };
-		827725EAA1CA4D49A3FB2AE3 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = B58105E0E8324533A864FA0A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */; };
-		92419BD37894415FB3AD507B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 176D692D16914E65A3AA79E6 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */; };
-		94A9FDCEF7834816A60ABE55 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = B229F0BDAF2941D09B9E5A0B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */; };
-		A0AC7E9D6F9E4647ADB5D543 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 5636556A8065497EBAA9DA3E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */; };
-		B699B1A21AEC453D81C4D60B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = DEBF6B5529964E0CA2AFBE6B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */; };
-		B85FCA1D4CB44FA58D8ACAA5 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 3355D0655F5E46209098647E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */; };
-		D018D8E8736D47F4A5790588 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 694D051A8C904798A84EA82F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */; };
-		DDFE4FB1087B42D680335223 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = 733289DBCE2749B291A4A104 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */; };
-		E0C7008D4F374AAEBB97AD6A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = CF233B93B7DF4790B415949A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */; };
-		E3FC5E84F20849BA82A6E826 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = FC9043D21DEC42D19BC6BFB7 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */; };
-		EA7A146FE3334FC39C984A23 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = 2DEA39BCE8BE4C7B852D13F8 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */; };
-		F3588D7AFCEF43D183CBEDFC /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7690F3C2C9064399B816E9C0 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */; };
+		1CE87D0E49354DDCA8221D0D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = EFD42CF56F47471BA7BFAE6E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */; };
+		28F234D99E2C4FC4AEE9EA53 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 079EF4F23A134A37858F8132 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */; };
+		3C85068B0A584C0FB99B0F9D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = 6CEB084AD3C74193A9E8A54D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */; };
+		3E6506F601034A688DC78DDA /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 23687BC34D0A41EC8E4EE839 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */; };
+		3EE596B1799D48ABADDB2921 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 7F9BEB750A5A45A88B1B9F5E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */; };
+		41E90EFF0661497DA59848E0 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = F86BDF04C5D146B6922B6265 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */; };
+		50AA6150674B428CBDFD5ECD /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 71B102B3181A4443A66B096D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */; };
+		662912C1431D4559A0C85D9F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = A9300C70068E45D582C93D1A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */; };
+		6960B8832C114E8C837F83EF /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 032978F381ED4E80BB552152 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */; };
+		735B57EE3842415C9158AE00 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = C02B843A5B5944E182E4C58E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */; };
+		7763B47C1E1042DB8B4F9651 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 4F181BF348B048A3926C9B05 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */; };
+		79094F979EB0472EA4C94A92 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = D647EBBE1AFC4950AAC1D9F9 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */; };
+		7A6EAF8848DE48CC87F23EA6 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 1E77F0B11F61442BB4DD2206 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */; };
+		97A247839666478A9884F42A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F5BD36CF10694FF197F3B670 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */; };
+		A073D189261A4DA98281C0EA /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 0151BDDF6C9D45CF8F96F668 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */; };
+		AC9AF80E475D4E8C94E00DFB /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = C0D2B8B446354CAB93FBEF6E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */; };
+		C0572028225345888EE2E11A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = A4DE455A16664847AD99CB5E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */; };
+		D3C57E3356B54E488A659492 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 25CE0BBDCEF345BE95D7C013 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */; };
+		E12897DFCE9D4EC88996D811 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = D6ED5DE97B694D05B0591044 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */; };
+		F1FC230FFC0C41E7B2FA3B01 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 5D8CC1672264428F9783E497 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src/glfw_config.h */; };
+		F9DA5C2A748848E68992901B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = CDB07760B3F44192913CE6B8 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */; };
+		FA2249A951104D0B8B263F8C /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = B03A7AA76CEE4AF2ACEA188A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		7363647291D84714889F41A7 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		933C9EEDFF8843D6939D1899 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		B353A5E093214B7DAC88E5D5 /* MinSizeRel */ = {
+		0D78BAAF6E4D4FBCABBDE261 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		F8E20D21F82B48A78BE02D8A /* Debug */ = {
+		903781357ECA4CB39F867383 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B4D220AC56674245965DEBFC /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		CC4376883AD74932BD6012D0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		8BCD403C7310410CBFDE0AB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 001C9DACE35846A8BDEF85B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25D9C8E045A4404EA5E3BF0D;
-			remoteInfo = ZERO_CHECK;
-		};
-		AB778263777A425AAA809289 /* PBXContainerItemProxy */ = {
+		8FE2EC3D0F0446F4A4AA2224 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 001C9DACE35846A8BDEF85B4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C5A4A09F0CD94F15B74A403C;
 			remoteInfo = glfw;
 		};
-		FED9926E3821462CA919B3B5 /* PBXContainerItemProxy */ = {
+		A777C0B8E9314766BD52782D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001C9DACE35846A8BDEF85B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25D9C8E045A4404EA5E3BF0D;
+			remoteInfo = ZERO_CHECK;
+		};
+		BF0C39FCAF354E03A3EC1B14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 001C9DACE35846A8BDEF85B4 /* Project object */;
 			proxyType = 1;
@@ -114,117 +114,117 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1247C2AD5D524641B705B393 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		176D692D16914E65A3AA79E6 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		22DCE6D894D64179AB21A255 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		2DEA39BCE8BE4C7B852D13F8 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		3355D0655F5E46209098647E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
-		42F360A87ABD4CE08E3A3916 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		544937A88BC241B599BBB64D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		544DB129D1B9488BB7DB5228 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		5636556A8065497EBAA9DA3E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		5D18AF9A59E84247985D447A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		694D051A8C904798A84EA82F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
-		731EC46A461244FAA2152685 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		733289DBCE2749B291A4A104 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		7690F3C2C9064399B816E9C0 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		89AC08341912448AAC07992F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		9B47EA3149794D6EB066D538 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		A4DD14271B334389837A8DF9 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F0E9F21965482D9F801976 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../../new_build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
-		B229F0BDAF2941D09B9E5A0B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		B27035963C1646A2A668AF40 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		B58105E0E8324533A864FA0A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		CF233B93B7DF4790B415949A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		DEBF6B5529964E0CA2AFBE6B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		FC9043D21DEC42D19BC6BFB7 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		0151BDDF6C9D45CF8F96F668 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		032978F381ED4E80BB552152 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		079EF4F23A134A37858F8132 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		1E77F0B11F61442BB4DD2206 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		23687BC34D0A41EC8E4EE839 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		25CE0BBDCEF345BE95D7C013 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		29F46D25D6F545E7B895A792 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F181BF348B048A3926C9B05 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		5D8CC1672264428F9783E497 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../../../../graphics_final_project/new_build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		6CEB084AD3C74193A9E8A54D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		71B102B3181A4443A66B096D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		7F9BEB750A5A45A88B1B9F5E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		A4DE455A16664847AD99CB5E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		A9300C70068E45D582C93D1A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		B03A7AA76CEE4AF2ACEA188A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		C02B843A5B5944E182E4C58E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		C0D2B8B446354CAB93FBEF6E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		CDB07760B3F44192913CE6B8 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		D647EBBE1AFC4950AAC1D9F9 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		D6ED5DE97B694D05B0591044 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		EB518BD1FEA64402BFF02E52 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EFD42CF56F47471BA7BFAE6E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		F5BD36CF10694FF197F3B670 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F86BDF04C5D146B6922B6265 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		1A9C80255AB547B0BF63D9CD /* Products */ = {
+		1047F76A118C45E98E1398A5 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4DD14271B334389837A8DF9 /* glfw */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		41E081713B9C4179BA8CB949 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				1247C2AD5D524641B705B393 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */,
-				42F360A87ABD4CE08E3A3916 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */,
-				CF233B93B7DF4790B415949A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */,
-				731EC46A461244FAA2152685 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */,
-				176D692D16914E65A3AA79E6 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */,
-				B229F0BDAF2941D09B9E5A0B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */,
-				694D051A8C904798A84EA82F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */,
-				A9F0E9F21965482D9F801976 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src/glfw_config.h */,
+				5D8CC1672264428F9783E497 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src/glfw_config.h */,
+				7F9BEB750A5A45A88B1B9F5E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */,
+				1E77F0B11F61442BB4DD2206 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */,
+				C02B843A5B5944E182E4C58E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.h */,
+				F86BDF04C5D146B6922B6265 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_platform.h */,
+				A4DE455A16664847AD99CB5E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/internal.h */,
+				D6ED5DE97B694D05B0591044 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.h */,
+				71B102B3181A4443A66B096D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		4BB17C01D8A84343B12E5B43 = {
-			isa = PBXGroup;
-			children = (
-				8F65A487805A491095E21BFB /* ALL_BUILD */,
-				979B218D5C2C4315AA78B30A /* GLFW3 */,
-				1A9C80255AB547B0BF63D9CD /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		56596F06C99B4C7194184C61 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				DEBF6B5529964E0CA2AFBE6B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */,
-				B27035963C1646A2A668AF40 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
-				22DCE6D894D64179AB21A255 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
-				544DB129D1B9488BB7DB5228 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */,
-				89AC08341912448AAC07992F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */,
-				B58105E0E8324533A864FA0A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */,
-				5636556A8065497EBAA9DA3E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */,
-				733289DBCE2749B291A4A104 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */,
-				9B47EA3149794D6EB066D538 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */,
-				FC9043D21DEC42D19BC6BFB7 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */,
-				3355D0655F5E46209098647E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */,
-				5D18AF9A59E84247985D447A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */,
-				2DEA39BCE8BE4C7B852D13F8 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		6110A43462EF4AB183A97B5A /* glfw */ = {
-			isa = PBXGroup;
-			children = (
-				56596F06C99B4C7194184C61 /* Source Files */,
-				41E081713B9C4179BA8CB949 /* Header Files */,
-				7690F3C2C9064399B816E9C0 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */,
-			);
-			name = glfw;
-			sourceTree = "<group>";
-		};
-		8F65A487805A491095E21BFB /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				96F2CDCD5FE4406595B80688 /* CMake Rules */,
-				544937A88BC241B599BBB64D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		96F2CDCD5FE4406595B80688 /* CMake Rules */ = {
+		221EC3346C89488C919AE1E1 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		979B218D5C2C4315AA78B30A /* GLFW3 */ = {
+		8229CEE5CF284E5C889B6EBA = {
 			isa = PBXGroup;
 			children = (
-				6110A43462EF4AB183A97B5A /* glfw */,
+				FCFAF148ECD945FFBDEDE63D /* ALL_BUILD */,
+				A483BBC3DE3F4B6F9486AA76 /* GLFW3 */,
+				F1340493B73449A3B4700077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A483BBC3DE3F4B6F9486AA76 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				A7446B980487442298DCEAD1 /* glfw */,
 			);
 			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		A7446B980487442298DCEAD1 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				D00FF2F7F4D94AE6920D3FE5 /* Source Files */,
+				1047F76A118C45E98E1398A5 /* Header Files */,
+				F5BD36CF10694FF197F3B670 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		D00FF2F7F4D94AE6920D3FE5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				079EF4F23A134A37858F8132 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */,
+				CDB07760B3F44192913CE6B8 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
+				4F181BF348B048A3926C9B05 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
+				C0D2B8B446354CAB93FBEF6E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */,
+				23687BC34D0A41EC8E4EE839 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */,
+				B03A7AA76CEE4AF2ACEA188A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */,
+				032978F381ED4E80BB552152 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */,
+				EFD42CF56F47471BA7BFAE6E /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */,
+				D647EBBE1AFC4950AAC1D9F9 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */,
+				25CE0BBDCEF345BE95D7C013 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */,
+				0151BDDF6C9D45CF8F96F668 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */,
+				A9300C70068E45D582C93D1A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */,
+				6CEB084AD3C74193A9E8A54D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F1340493B73449A3B4700077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F46D25D6F545E7B895A792 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFAF148ECD945FFBDEDE63D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				221EC3346C89488C919AE1E1 /* CMake Rules */,
+				EB518BD1FEA64402BFF02E52 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,18 +232,18 @@
 /* Begin PBXNativeTarget section */
 		C5A4A09F0CD94F15B74A403C /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1B826FCF3124B4FB982C22D /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 501817FE5EB84BF197170269 /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				A1C569DC2ECD4EC58F9591F5 /* Sources */,
+				110B348CA88F4A4096EBB8E0 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F91B13239B44177B7F99B91 /* PBXTargetDependency */,
+				869B5310697A4376A274482C /* PBXTargetDependency */,
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = A4DD14271B334389837A8DF9 /* glfw */;
+			productReference = 29F46D25D6F545E7B895A792 /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -255,18 +255,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1140;
 			};
-			buildConfigurationList = 9041D45BCA1344FE902C0530 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 0DAB1944585B4FCA85B4B31B /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F8E20D21F82B48A78BE02D8A /* Debug */,
-				7363647291D84714889F41A7 /* Release */,
-				B353A5E093214B7DAC88E5D5 /* MinSizeRel */,
-				933C9EEDFF8843D6939D1899 /* RelWithDebInfo */,
+				B4D220AC56674245965DEBFC /* Debug */,
+				CC4376883AD74932BD6012D0 /* Release */,
+				0D78BAAF6E4D4FBCABBDE261 /* MinSizeRel */,
+				903781357ECA4CB39F867383 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 4BB17C01D8A84343B12E5B43;
+			mainGroup = 8229CEE5CF284E5C889B6EBA;
 			projectDirPath = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2";
 			projectRoot = "";
 			targets = (
@@ -278,7 +278,18 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B84C15C6706C44CCA196BF8D = {
+		24019935577E4C3581631C06 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2 -f /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		2EA1EBD45FEF4D4E8C659297 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,7 +304,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		C1A6819CF0BD44CC80704A02 /* CMake Rules */ = {
+		B334175C830C4E87832F6F4F /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,10 +312,10 @@ exit 0";
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2 -f /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			shellScript = "make -C /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2 -f /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		E978D6CE7C2F4CED8A796560 = {
+		C9BEE4A8A24C4538A55BD5F9 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,99 +328,63 @@ exit 0";
 			shellPath = /bin/sh;
 			shellScript = "# shell script goes here
 exit 0";
-			showEnvVarsInLog = 0;
-		};
-		F3FDA13C3076436A966921CF /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2 -f /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1C569DC2ECD4EC58F9591F5 /* Sources */ = {
+		110B348CA88F4A4096EBB8E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B699B1A21AEC453D81C4D60B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */,
-				36ED17B95960407BB9560FA9 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
-				2F153815421C4E0F92EBA36C /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
-				09664A9A9923473E9BA7F5E1 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */,
-				31DCDC8CD40C457E99E82674 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */,
-				827725EAA1CA4D49A3FB2AE3 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */,
-				A0AC7E9D6F9E4647ADB5D543 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */,
-				DDFE4FB1087B42D680335223 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */,
-				2BAB20660BAD422892B2998D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */,
-				E3FC5E84F20849BA82A6E826 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */,
-				B85FCA1D4CB44FA58D8ACAA5 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */,
-				7E08A55D13DB432BB9DE5E0A /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */,
-				EA7A146FE3334FC39C984A23 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */,
+				28F234D99E2C4FC4AEE9EA53 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_init.m */,
+				F9DA5C2A748848E68992901B /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
+				7763B47C1E1042DB8B4F9651 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
+				AC9AF80E475D4E8C94E00DFB /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_time.c */,
+				3E6506F601034A688DC78DDA /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/cocoa_window.m */,
+				FA2249A951104D0B8B263F8C /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/context.c */,
+				6960B8832C114E8C837F83EF /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/init.c */,
+				1CE87D0E49354DDCA8221D0D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/input.c */,
+				79094F979EB0472EA4C94A92 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/monitor.c */,
+				D3C57E3356B54E488A659492 /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/nsgl_context.m */,
+				A073D189261A4DA98281C0EA /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/posix_tls.c */,
+				662912C1431D4559A0C85D9F /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/vulkan.c */,
+				3C85068B0A584C0FB99B0F9D /* /Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03FC137089BA4BF58907B448 /* PBXTargetDependency */ = {
+		77690C1BE4F54FEFAD3EA338 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 25D9C8E045A4404EA5E3BF0D /* ZERO_CHECK */;
-			targetProxy = FED9926E3821462CA919B3B5 /* PBXContainerItemProxy */;
+			targetProxy = BF0C39FCAF354E03A3EC1B14 /* PBXContainerItemProxy */;
 		};
-		0F91B13239B44177B7F99B91 /* PBXTargetDependency */ = {
+		869B5310697A4376A274482C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 25D9C8E045A4404EA5E3BF0D /* ZERO_CHECK */;
-			targetProxy = 8BCD403C7310410CBFDE0AB5 /* PBXContainerItemProxy */;
+			targetProxy = A777C0B8E9314766BD52782D /* PBXContainerItemProxy */;
 		};
-		9A46F4A3622E49019245D2F1 /* PBXTargetDependency */ = {
+		C9C9E8516D6E47FA8C6F01DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C5A4A09F0CD94F15B74A403C /* glfw */;
-			targetProxy = AB778263777A425AAA809289 /* PBXContainerItemProxy */;
+			targetProxy = 8FE2EC3D0F0446F4A4AA2224 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04429AF45E144CC1A359B51A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		0AAD0A55337D4871ABBEE4B2 /* RelWithDebInfo */ = {
+		0DF89F9DE14B4541B2596804 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/build";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/build";
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
-		0D0F2DB75D384D3592434B3F /* Release */ = {
+		2D71898C02D54EA4A7C7FDC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -420,7 +395,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src");
+				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
@@ -428,13 +403,68 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		195CA7EA850D4BD18EF92E02 /* RelWithDebInfo */ = {
+		2E2E90C393B7481E9856D4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		64E0C2F7844144F2953D6C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		77B0C4137B4944CE9CD5CA11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/build";
+			};
+			name = Debug;
+		};
+		866EC8423B384041BA849E6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -448,13 +478,138 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8CE953C83B134AD29635981F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		4D751DFB3D374A6486954813 /* MinSizeRel */ = {
+		B6705FA36B794EEFA7C9CF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C0F92C8CF16042918FD1A0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C4B349134F3643C1B73ACE01 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D0AB7CEA72384DE9A0CBD759 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D99E8C40A56B42299B483021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/build";
+			};
+			name = Release;
+		};
+		DAD0ABF46A9B4594A2C577FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC716D04FB354AFF9EEBE570 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -465,7 +620,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src");
+				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
@@ -473,98 +628,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		53F6B8CC6961432793F439E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "   -fPIC -Wall ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		5645F8D2109445FEA4F850CA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6648B555FA824D81A46C36AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		74E67EFAC7DA4E4EACBA050F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/build";
-			};
-			name = Release;
-		};
-		76609497EAB24991A7DB09E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/build";
-			};
-			name = Debug;
-		};
-		81D1504DC82B46759196E74B /* Release */ = {
+		ED75328A42E140AFACDF3E03 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -578,73 +648,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		9293BDED59264E65868D7D66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		986A785E347B4E79B1ED758D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		B081341EAC664CEA98D68564 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		EF974AE34C2F452397AFD7A3 /* RelWithDebInfo */ = {
+		FEF4D2A921EC4795A354BBAE /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -658,65 +668,55 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2";
+				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		FDD7EC7509AE4426B623CC66 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/build";
-			};
-			name = MinSizeRel;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80E6D47D38CB40C19FFE5DF6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		08E2E0B4DD904075B530E38A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9293BDED59264E65868D7D66 /* Debug */,
-				81D1504DC82B46759196E74B /* Release */,
-				B081341EAC664CEA98D68564 /* MinSizeRel */,
-				195CA7EA850D4BD18EF92E02 /* RelWithDebInfo */,
+				C0F92C8CF16042918FD1A0A1 /* Debug */,
+				866EC8423B384041BA849E6A /* Release */,
+				ED75328A42E140AFACDF3E03 /* MinSizeRel */,
+				C4B349134F3643C1B73ACE01 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9041D45BCA1344FE902C0530 /* Build configuration list for PBXProject "GLFW" */ = {
+		0DAB1944585B4FCA85B4B31B /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76609497EAB24991A7DB09E1 /* Debug */,
-				74E67EFAC7DA4E4EACBA050F /* Release */,
-				FDD7EC7509AE4426B623CC66 /* MinSizeRel */,
-				0AAD0A55337D4871ABBEE4B2 /* RelWithDebInfo */,
+				77B0C4137B4944CE9CD5CA11 /* Debug */,
+				D99E8C40A56B42299B483021 /* Release */,
+				0DF89F9DE14B4541B2596804 /* MinSizeRel */,
+				D0AB7CEA72384DE9A0CBD759 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9AEECC16551A4239811ECC24 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		2965D1F94C924017AF455E1B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6648B555FA824D81A46C36AA /* Debug */,
-				986A785E347B4E79B1ED758D /* Release */,
-				5645F8D2109445FEA4F850CA /* MinSizeRel */,
-				EF974AE34C2F452397AFD7A3 /* RelWithDebInfo */,
+				B6705FA36B794EEFA7C9CF1F /* Debug */,
+				64E0C2F7844144F2953D6C19 /* Release */,
+				DAD0ABF46A9B4594A2C577FC /* MinSizeRel */,
+				FEF4D2A921EC4795A354BBAE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E1B826FCF3124B4FB982C22D /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		501817FE5EB84BF197170269 /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53F6B8CC6961432793F439E1 /* Debug */,
-				0D0F2DB75D384D3592434B3F /* Release */,
-				4D751DFB3D374A6486954813 /* MinSizeRel */,
-				04429AF45E144CC1A359B51A /* RelWithDebInfo */,
+				2E2E90C393B7481E9856D4B8 /* Debug */,
+				2D71898C02D54EA4A7C7FDC9 /* Release */,
+				EC716D04FB354AFF9EEBE570 /* MinSizeRel */,
+				8CE953C83B134AD29635981F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

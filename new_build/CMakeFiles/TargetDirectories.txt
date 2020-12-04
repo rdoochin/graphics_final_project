@@ -1,7 +1,7 @@
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/asteroids.dir
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/glad.dir
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/ALL_BUILD.dir
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/CMakeFiles/ZERO_CHECK.dir
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
-/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src/CMakeFiles/glfw.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/asteroids.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/glad.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/ALL_BUILD.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/CMakeFiles/ZERO_CHECK.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/CMakeFiles/ALL_BUILD.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/CMakeFiles/ZERO_CHECK.dir
+/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src/CMakeFiles/glfw.dir

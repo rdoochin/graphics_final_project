@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/new_build/glfw-3.2/src/cmake_install.cmake")
+  include("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/new_build/glfw-3.2/src/cmake_install.cmake")
 
 endif()
 

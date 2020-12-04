@@ -15,7 +15,7 @@ myAstroid::myAstroid(){
     GLfloat red = 0.0f;
 
     state.astroid_pointing = vec2(0,1);
-  //Set up initial state here
+  // Set up initial state here
     astroid_vert[0] = vec2(-0.65,  0.25);
     astroid_vert[1] = vec2(-0.6,  0.2);
     astroid_vert[2] = vec2(-0.7,  0.1);
@@ -35,6 +35,8 @@ myAstroid::myAstroid(){
     astroid_color[6] = vec3( 1.0, 1.0, 1.0);
     size_t astroid_color_bytes = 6*sizeof(vec3);
 };
+
+
 
 //Called everytime an animation tick happens
 void myAstroid::update_state(){
