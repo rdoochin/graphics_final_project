@@ -36,78 +36,26 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		001CFBA205FB4AA586756E6F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 326C29955C2F4E188A56655E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/vulkan.c */; };
-		0A8EBE7E3C35458391EB2C5E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = C5976FDCD434429D96F8720F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/glfw_config.h */; };
-		111BD16C3799444AAB486DC0 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/CheckError.h */ = {isa = PBXBuildFile; fileRef = 7CE736C91968484E96095425 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/CheckError.h */; };
-		12AD7AB454B048E3BEFB633D /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.h */ = {isa = PBXBuildFile; fileRef = 588DD5A50FA84E348C877FB5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.h */; };
-		13C34B37A2404A89AE6B5CC3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 4985C320A877441AB9328C4B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_window.m */; };
-		16E3C9C8474647E59CC03F0F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 51BBDB794C3F488EB6D0D09A /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_platform.h */; };
-		29F58755499F4446A8FF504B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = AFFC349D9D1E47889AF91281 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/context.c */; };
-		3175FC519E6D4C9E8BCDEE51 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = E05D8E2BB6F342418DAC2D91 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/init.c */; };
-		36E24D889C4C4E9FA1D0171A /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/fshader_Ship.glsl */ = {isa = PBXBuildFile; fileRef = 625E7A45253642E182731E9F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/fshader_Ship.glsl */; };
-		41F69AF1829D4667BDFBE5CD /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 8E119868AFA3499782760814 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.h */; };
-		45D039EF20104173BF34F5CC /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/shader.cpp */ = {isa = PBXBuildFile; fileRef = 2B7EF6C9A21B469B8018A1AF /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/shader.cpp */; };
-		5029D403E0E9474492F35E82 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common.h */ = {isa = PBXBuildFile; fileRef = D61FB7712B9444D8947F93B7 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common.h */; };
-		50939D25E8BD4DC281A436F9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.cpp */ = {isa = PBXBuildFile; fileRef = 8CAA19B518B6443D9C4947AA /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.cpp */; };
-		599D08E9C26D49BA9D51C12E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = A6A103A8C32A4A59950B7B46 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_monitor.m */; };
-		5A2018920DA643E99AA359E6 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.cpp */ = {isa = PBXBuildFile; fileRef = 4BA536B735ED4603B9E61C78 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.cpp */; };
-		69ED96AED81B4BA3B88B9971 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 579B8A6538E84DCB89543B13 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist */; };
-		6F1C4F5ED03648099FFE6C20 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/main.cpp */ = {isa = PBXBuildFile; fileRef = 886E7C0901E04FEAA687F6E9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/main.cpp */; };
-		809BF70908934B118AE7A127 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 8BFDDB759CB84161A2F8A209 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.h */; };
-		813B07D49F784609BDD25793 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = F1AE275E529B47E19CEE7730 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.m */; };
-		83BFF8328C3343438A100FC9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 7170EAE3D1CA4D879C15FA44 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.c */; };
-		853D15D884514BF699A67AAE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/vec.h */ = {isa = PBXBuildFile; fileRef = ABF31FA9D9EC48A48177A6A3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/vec.h */; };
-		8F928B15D3CA4F179AF450E5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = AB729A3D07FC4FC3B54CD5A1 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/window.c */; };
-		987AAF46DF1047C1A6A6E5C4 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 64350E22E4464AD1BE174181 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/internal.h */; };
-		99B9DCC7C13A42E5BDDC1E40 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad/glad.h */ = {isa = PBXBuildFile; fileRef = 57A0259AC9594246878A9C30 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad/glad.h */; };
-		9A90BA026FCF4B2B996B2716 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 0E4A9AA6E5544A3986C4E6AD /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.h */; };
-		9C832226C6364278AA97C25C /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 60FBF056191E447CBC93A973 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/CMakeLists.txt */; };
-		A2AF3B6F2B8D4E6F8A395FE6 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 376E50F542B940BDB2634AC3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/monitor.c */; };
-		A9C1D27662A84F96BEABA5CC /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.hpp */ = {isa = PBXBuildFile; fileRef = FA2BD17FB6844668A81BB9A7 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.hpp */; };
-		B1F84DE25F2941E89284EE42 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 6F60465E405F479AB60A7E0B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_time.c */; };
-		B3952B851E894D1CA3728823 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8EB34506B28D43D2996BE8F5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */; };
-		B3ABE513B1424710B5E43698 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = A7CF9A58500B4F0CA4C3F652 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/input.c */; };
-		B63C010875F145869A26FCE1 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad.c */ = {isa = PBXBuildFile; fileRef = 9AC9AC876A114B738E3D25EE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad.c */; };
-		B8F4419A5CF5413C9B03F2E8 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = E90CE89E9F8C4B09BB59B43B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */; };
-		C3D96E20AB1B4173BC05E362 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/Angel.h */ = {isa = PBXBuildFile; fileRef = B430D14D333E41D0A1582D5B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/Angel.h */; };
-		C3DB76D8137E48EDA9DAA58E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 776AA86F3FA745F381E2F1CE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_init.m */; };
-		C87440A1C95E41EF9F76E38E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/vshader_Ship.glsl */ = {isa = PBXBuildFile; fileRef = 41FB1652C51E4F3498FBB682 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/vshader_Ship.glsl */; };
-		D493C86608B14B37BBF22498 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = A0E54AFA11A44EE88E34FCBC /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */; };
-		DC84A38A2B9D4E03A8AA6136 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 80D07F2EF01C41F189A502ED /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */; };
-		E11375B882B8449CAEBEEE59 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = D17F23DC9EAF4EC786E007D0 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.m */; };
-		F158C9C9702C4760AF229285 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/mat.h */ = {isa = PBXBuildFile; fileRef = B41F349DE59D4EFF82300856 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/mat.h */; };
+		001CFBA205FB4AA586756E6F /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 326C29955C2F4E188A56655E /* vulkan.c */; };
+		13C34B37A2404A89AE6B5CC3 /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = 4985C320A877441AB9328C4B /* cocoa_window.m */; };
+		29F58755499F4446A8FF504B /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFC349D9D1E47889AF91281 /* context.c */; };
+		30F062AD257BEDE800368877 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30F062AB257BEDE800368877 /* lodepng.cpp */; };
+		3175FC519E6D4C9E8BCDEE51 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = E05D8E2BB6F342418DAC2D91 /* init.c */; };
+		45D039EF20104173BF34F5CC /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EF6C9A21B469B8018A1AF /* shader.cpp */; };
+		50939D25E8BD4DC281A436F9 /* myAstroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAA19B518B6443D9C4947AA /* myAstroid.cpp */; };
+		599D08E9C26D49BA9D51C12E /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A103A8C32A4A59950B7B46 /* cocoa_monitor.m */; };
+		5A2018920DA643E99AA359E6 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA536B735ED4603B9E61C78 /* Ship.cpp */; };
+		6F1C4F5ED03648099FFE6C20 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 886E7C0901E04FEAA687F6E9 /* main.cpp */; };
+		813B07D49F784609BDD25793 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AE275E529B47E19CEE7730 /* nsgl_context.m */; };
+		83BFF8328C3343438A100FC9 /* posix_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 7170EAE3D1CA4D879C15FA44 /* posix_tls.c */; };
+		8F928B15D3CA4F179AF450E5 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = AB729A3D07FC4FC3B54CD5A1 /* window.c */; };
+		A2AF3B6F2B8D4E6F8A395FE6 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 376E50F542B940BDB2634AC3 /* monitor.c */; };
+		B1F84DE25F2941E89284EE42 /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F60465E405F479AB60A7E0B /* cocoa_time.c */; };
+		B3ABE513B1424710B5E43698 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = A7CF9A58500B4F0CA4C3F652 /* input.c */; };
+		B63C010875F145869A26FCE1 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9AC876A114B738E3D25EE /* glad.c */; };
+		C3DB76D8137E48EDA9DAA58E /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 776AA86F3FA745F381E2F1CE /* cocoa_init.m */; };
+		E11375B882B8449CAEBEEE59 /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F23DC9EAF4EC786E007D0 /* cocoa_joystick.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		36ACBF5DF5AE45C193E2C57F /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		395CB2264536431ABDF66CB1 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		C2F861A21B41436BB232B99F /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		DDD6AEBEE58B493683ED9B76 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		48D5AA76A05A442E8ED786C0 /* PBXContainerItemProxy */ = {
@@ -176,60 +124,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08E24088951B4775902CF281 /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = asteroids; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E4A9AA6E5544A3986C4E6AD /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
-		1319776C30FE40DDB00C827C /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B7EF6C9A21B469B8018A1AF /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = shaders/shader.cpp; sourceTree = SOURCE_ROOT; };
-		326C29955C2F4E188A56655E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
-		376E50F542B940BDB2634AC3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
-		41FB1652C51E4F3498FBB682 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/vshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ship.glsl; path = shaders/vshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
-		4985C320A877441AB9328C4B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
-		4BA536B735ED4603B9E61C78 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
-		51BBDB794C3F488EB6D0D09A /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
-		579B8A6538E84DCB89543B13 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../final_build/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
-		57A0259AC9594246878A9C30 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad/glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
-		588DD5A50FA84E348C877FB5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
-		60FBF056191E447CBC93A973 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-		625E7A45253642E182731E9F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/fshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ship.glsl; path = shaders/fshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
-		64350E22E4464AD1BE174181 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
-		6F60465E405F479AB60A7E0B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
-		7170EAE3D1CA4D879C15FA44 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
-		776AA86F3FA745F381E2F1CE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
-		7CE736C91968484E96095425 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/utils/CheckError.h; sourceTree = SOURCE_ROOT; };
-		80D07F2EF01C41F189A502ED /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		886E7C0901E04FEAA687F6E9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
-		8BFDDB759CB84161A2F8A209 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
-		8CAA19B518B6443D9C4947AA /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = myAstroid.cpp; path = source/myAstroid.cpp; sourceTree = SOURCE_ROOT; };
-		8E119868AFA3499782760814 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
-		8EB34506B28D43D2996BE8F5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		974B9B9018CD404A91D6DE8E /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC9AC876A114B738E3D25EE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
-		A0E54AFA11A44EE88E34FCBC /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
-		A6A103A8C32A4A59950B7B46 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
-		A7CF9A58500B4F0CA4C3F652 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
-		AB729A3D07FC4FC3B54CD5A1 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
-		ABF31FA9D9EC48A48177A6A3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/utils/vec.h; sourceTree = SOURCE_ROOT; };
-		AFFC349D9D1E47889AF91281 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
-		B41F349DE59D4EFF82300856 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/utils/mat.h; sourceTree = SOURCE_ROOT; };
-		B430D14D333E41D0A1582D5B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/Angel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Angel.h; path = source/utils/Angel.h; sourceTree = SOURCE_ROOT; };
-		C5976FDCD434429D96F8720F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../final_build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
-		CA768CB470CB44C796AA04E8 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D17F23DC9EAF4EC786E007D0 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
-		D61FB7712B9444D8947F93B7 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common.h; sourceTree = SOURCE_ROOT; };
-		E05D8E2BB6F342418DAC2D91 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
-		E90CE89E9F8C4B09BB59B43B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
-		F1AE275E529B47E19CEE7730 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
-		FA2BD17FB6844668A81BB9A7 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = myAstroid.hpp; path = source/myAstroid.hpp; sourceTree = SOURCE_ROOT; };
+		08E24088951B4775902CF281 /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = asteroids; path = asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4A9AA6E5544A3986C4E6AD /* posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		1319776C30FE40DDB00C827C /* libglfw3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7EF6C9A21B469B8018A1AF /* shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = shaders/shader.cpp; sourceTree = SOURCE_ROOT; };
+		30F062AB257BEDE800368877 /* lodepng.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
+		30F062AC257BEDE800368877 /* lodepng.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lodepng.hpp; sourceTree = "<group>"; };
+		326C29955C2F4E188A56655E /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		376E50F542B940BDB2634AC3 /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		41FB1652C51E4F3498FBB682 /* vshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader_Ship.glsl; path = shaders/vshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		4985C320A877441AB9328C4B /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		4BA536B735ED4603B9E61C78 /* Ship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ship.cpp; path = source/Ship.cpp; sourceTree = SOURCE_ROOT; };
+		51BBDB794C3F488EB6D0D09A /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		579B8A6538E84DCB89543B13 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../final_build/CMakeFiles/asteroids.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		57A0259AC9594246878A9C30 /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
+		588DD5A50FA84E348C877FB5 /* Ship.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ship.h; path = source/Ship.h; sourceTree = SOURCE_ROOT; };
+		60FBF056191E447CBC93A973 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		625E7A45253642E182731E9F /* fshader_Ship.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader_Ship.glsl; path = shaders/fshader_Ship.glsl; sourceTree = SOURCE_ROOT; };
+		64350E22E4464AD1BE174181 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		6F60465E405F479AB60A7E0B /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		7170EAE3D1CA4D879C15FA44 /* posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		776AA86F3FA745F381E2F1CE /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		7CE736C91968484E96095425 /* CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/utils/CheckError.h; sourceTree = SOURCE_ROOT; };
+		80D07F2EF01C41F189A502ED /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		886E7C0901E04FEAA687F6E9 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		8BFDDB759CB84161A2F8A209 /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		8CAA19B518B6443D9C4947AA /* myAstroid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = myAstroid.cpp; path = source/myAstroid.cpp; sourceTree = SOURCE_ROOT; };
+		8E119868AFA3499782760814 /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		8EB34506B28D43D2996BE8F5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		974B9B9018CD404A91D6DE8E /* libglad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC9AC876A114B738E3D25EE /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
+		A0E54AFA11A44EE88E34FCBC /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		A6A103A8C32A4A59950B7B46 /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		A7CF9A58500B4F0CA4C3F652 /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
+		AB729A3D07FC4FC3B54CD5A1 /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
+		ABF31FA9D9EC48A48177A6A3 /* vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/utils/vec.h; sourceTree = SOURCE_ROOT; };
+		AFFC349D9D1E47889AF91281 /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
+		B41F349DE59D4EFF82300856 /* mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/utils/mat.h; sourceTree = SOURCE_ROOT; };
+		B430D14D333E41D0A1582D5B /* Angel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Angel.h; path = source/utils/Angel.h; sourceTree = SOURCE_ROOT; };
+		C5976FDCD434429D96F8720F /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../final_build/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		CA768CB470CB44C796AA04E8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D17F23DC9EAF4EC786E007D0 /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		D61FB7712B9444D8947F93B7 /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common.h; sourceTree = SOURCE_ROOT; };
+		E05D8E2BB6F342418DAC2D91 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
+		E90CE89E9F8C4B09BB59B43B /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		F1AE275E529B47E19CEE7730 /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		FA2BD17FB6844668A81BB9A7 /* myAstroid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = myAstroid.hpp; path = source/myAstroid.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		1C8C3D33252E4140B3AAC71E /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B7EF6C9A21B469B8018A1AF /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/shader.cpp */,
-				4BA536B735ED4603B9E61C78 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.cpp */,
-				886E7C0901E04FEAA687F6E9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/main.cpp */,
-				8CAA19B518B6443D9C4947AA /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.cpp */,
+				2B7EF6C9A21B469B8018A1AF /* shader.cpp */,
+				4BA536B735ED4603B9E61C78 /* Ship.cpp */,
+				886E7C0901E04FEAA687F6E9 /* main.cpp */,
+				8CAA19B518B6443D9C4947AA /* myAstroid.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -237,7 +187,7 @@
 		388FF967103548E881F796AF /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				9AC9AC876A114B738E3D25EE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad.c */,
+				9AC9AC876A114B738E3D25EE /* glad.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -246,8 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				08E24088951B4775902CF281 /* asteroids */,
-				974B9B9018CD404A91D6DE8E /* glad */,
-				1319776C30FE40DDB00C827C /* glfw */,
+				974B9B9018CD404A91D6DE8E /* libglad.a */,
+				1319776C30FE40DDB00C827C /* libglfw3.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,9 +208,9 @@
 				DD30C04A3F7A4F0B863E7D48 /* Header Files */,
 				1C8C3D33252E4140B3AAC71E /* Source Files */,
 				C15EA40FB92B4653B06CCC36 /* Resources */,
-				80D07F2EF01C41F189A502ED /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */,
-				625E7A45253642E182731E9F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/fshader_Ship.glsl */,
-				41FB1652C51E4F3498FBB682 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/vshader_Ship.glsl */,
+				80D07F2EF01C41F189A502ED /* CMakeLists.txt */,
+				625E7A45253642E182731E9F /* fshader_Ship.glsl */,
+				41FB1652C51E4F3498FBB682 /* vshader_Ship.glsl */,
 			);
 			name = asteroids;
 			sourceTree = "<group>";
@@ -276,19 +226,19 @@
 		7B2B3E5221F04D9A8012A91F /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				776AA86F3FA745F381E2F1CE /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_init.m */,
-				D17F23DC9EAF4EC786E007D0 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
-				A6A103A8C32A4A59950B7B46 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
-				6F60465E405F479AB60A7E0B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_time.c */,
-				4985C320A877441AB9328C4B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_window.m */,
-				AFFC349D9D1E47889AF91281 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/context.c */,
-				E05D8E2BB6F342418DAC2D91 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/init.c */,
-				A7CF9A58500B4F0CA4C3F652 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/input.c */,
-				376E50F542B940BDB2634AC3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/monitor.c */,
-				F1AE275E529B47E19CEE7730 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.m */,
-				7170EAE3D1CA4D879C15FA44 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.c */,
-				326C29955C2F4E188A56655E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/vulkan.c */,
-				AB729A3D07FC4FC3B54CD5A1 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/window.c */,
+				776AA86F3FA745F381E2F1CE /* cocoa_init.m */,
+				D17F23DC9EAF4EC786E007D0 /* cocoa_joystick.m */,
+				A6A103A8C32A4A59950B7B46 /* cocoa_monitor.m */,
+				6F60465E405F479AB60A7E0B /* cocoa_time.c */,
+				4985C320A877441AB9328C4B /* cocoa_window.m */,
+				AFFC349D9D1E47889AF91281 /* context.c */,
+				E05D8E2BB6F342418DAC2D91 /* init.c */,
+				A7CF9A58500B4F0CA4C3F652 /* input.c */,
+				376E50F542B940BDB2634AC3 /* monitor.c */,
+				F1AE275E529B47E19CEE7730 /* nsgl_context.m */,
+				7170EAE3D1CA4D879C15FA44 /* posix_tls.c */,
+				326C29955C2F4E188A56655E /* vulkan.c */,
+				AB729A3D07FC4FC3B54CD5A1 /* window.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -298,7 +248,7 @@
 			children = (
 				7B2B3E5221F04D9A8012A91F /* Source Files */,
 				A5DABB41B2AE49FDB7B594BB /* Header Files */,
-				60FBF056191E447CBC93A973 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/CMakeLists.txt */,
+				60FBF056191E447CBC93A973 /* CMakeLists.txt */,
 			);
 			name = glfw;
 			sourceTree = "<group>";
@@ -307,7 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				D7AE18AA1F8F400FA7F52133 /* CMake Rules */,
-				CA768CB470CB44C796AA04E8 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */,
+				CA768CB470CB44C796AA04E8 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -315,14 +265,14 @@
 		A5DABB41B2AE49FDB7B594BB /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0E54AFA11A44EE88E34FCBC /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3.h */,
-				E90CE89E9F8C4B09BB59B43B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include/GLFW/glfw3native.h */,
-				8BFDDB759CB84161A2F8A209 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.h */,
-				51BBDB794C3F488EB6D0D09A /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_platform.h */,
-				64350E22E4464AD1BE174181 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/internal.h */,
-				8E119868AFA3499782760814 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.h */,
-				0E4A9AA6E5544A3986C4E6AD /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.h */,
-				C5976FDCD434429D96F8720F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/glfw_config.h */,
+				A0E54AFA11A44EE88E34FCBC /* glfw3.h */,
+				E90CE89E9F8C4B09BB59B43B /* glfw3native.h */,
+				8BFDDB759CB84161A2F8A209 /* cocoa_joystick.h */,
+				51BBDB794C3F488EB6D0D09A /* cocoa_platform.h */,
+				64350E22E4464AD1BE174181 /* internal.h */,
+				8E119868AFA3499782760814 /* nsgl_context.h */,
+				0E4A9AA6E5544A3986C4E6AD /* posix_tls.h */,
+				C5976FDCD434429D96F8720F /* glfw_config.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -330,7 +280,7 @@
 		C15EA40FB92B4653B06CCC36 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				579B8A6538E84DCB89543B13 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist */,
+				579B8A6538E84DCB89543B13 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -340,7 +290,7 @@
 			children = (
 				E9129E38ED054D828F0E6ADC /* Header Files */,
 				388FF967103548E881F796AF /* Source Files */,
-				8EB34506B28D43D2996BE8F5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/CMakeLists.txt */,
+				8EB34506B28D43D2996BE8F5 /* CMakeLists.txt */,
 			);
 			name = glad;
 			sourceTree = "<group>";
@@ -355,13 +305,15 @@
 		DD30C04A3F7A4F0B863E7D48 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				588DD5A50FA84E348C877FB5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.h */,
-				D61FB7712B9444D8947F93B7 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common.h */,
-				FA2BD17FB6844668A81BB9A7 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.hpp */,
-				B430D14D333E41D0A1582D5B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/Angel.h */,
-				7CE736C91968484E96095425 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/CheckError.h */,
-				B41F349DE59D4EFF82300856 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/mat.h */,
-				ABF31FA9D9EC48A48177A6A3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/vec.h */,
+				588DD5A50FA84E348C877FB5 /* Ship.h */,
+				D61FB7712B9444D8947F93B7 /* common.h */,
+				FA2BD17FB6844668A81BB9A7 /* myAstroid.hpp */,
+				B430D14D333E41D0A1582D5B /* Angel.h */,
+				7CE736C91968484E96095425 /* CheckError.h */,
+				B41F349DE59D4EFF82300856 /* mat.h */,
+				ABF31FA9D9EC48A48177A6A3 /* vec.h */,
+				30F062AB257BEDE800368877 /* lodepng.cpp */,
+				30F062AC257BEDE800368877 /* lodepng.hpp */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -369,7 +321,7 @@
 		E9129E38ED054D828F0E6ADC /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				57A0259AC9594246878A9C30 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad/glad.h */,
+				57A0259AC9594246878A9C30 /* glad.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -400,7 +352,7 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 1319776C30FE40DDB00C827C /* glfw */;
+			productReference = 1319776C30FE40DDB00C827C /* libglfw3.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A0D53D1F63184D169D89B72C /* asteroids */ = {
@@ -435,7 +387,7 @@
 			);
 			name = glad;
 			productName = glad;
-			productReference = 974B9B9018CD404A91D6DE8E /* glad */;
+			productReference = 974B9B9018CD404A91D6DE8E /* libglad.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -444,20 +396,16 @@
 		CBA19E159325405F90C310A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 59B62AC6A44748AF84A503DB /* Build configuration list for PBXProject "ASTEROIDS" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				36ACBF5DF5AE45C193E2C57F /* Debug */,
-				395CB2264536431ABDF66CB1 /* Release */,
-				C2F861A21B41436BB232B99F /* MinSizeRel */,
-				DDD6AEBEE58B493683ED9B76 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = F7EAA427FD8C46A9BC3AD3EE;
 			projectDirPath = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!";
 			projectRoot = "";
@@ -483,21 +431,6 @@
 			shellScript = "make -C /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build -f /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		11C703B255974099B3413040 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		74EA3BE533D644B0927D8762 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -509,21 +442,6 @@ exit 0";
 			shellScript = "make -C /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build -f /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		B2AAAEBA7F7E4AF9860333A4 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -531,19 +449,19 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DB76D8137E48EDA9DAA58E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_init.m */,
-				E11375B882B8449CAEBEEE59 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_joystick.m */,
-				599D08E9C26D49BA9D51C12E /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_monitor.m */,
-				B1F84DE25F2941E89284EE42 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_time.c */,
-				13C34B37A2404A89AE6B5CC3 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/cocoa_window.m */,
-				29F58755499F4446A8FF504B /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/context.c */,
-				3175FC519E6D4C9E8BCDEE51 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/init.c */,
-				B3ABE513B1424710B5E43698 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/input.c */,
-				A2AF3B6F2B8D4E6F8A395FE6 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/monitor.c */,
-				813B07D49F784609BDD25793 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/nsgl_context.m */,
-				83BFF8328C3343438A100FC9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/posix_tls.c */,
-				001CFBA205FB4AA586756E6F /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/vulkan.c */,
-				8F928B15D3CA4F179AF450E5 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src/window.c */,
+				C3DB76D8137E48EDA9DAA58E /* cocoa_init.m in Sources */,
+				E11375B882B8449CAEBEEE59 /* cocoa_joystick.m in Sources */,
+				599D08E9C26D49BA9D51C12E /* cocoa_monitor.m in Sources */,
+				B1F84DE25F2941E89284EE42 /* cocoa_time.c in Sources */,
+				13C34B37A2404A89AE6B5CC3 /* cocoa_window.m in Sources */,
+				29F58755499F4446A8FF504B /* context.c in Sources */,
+				3175FC519E6D4C9E8BCDEE51 /* init.c in Sources */,
+				B3ABE513B1424710B5E43698 /* input.c in Sources */,
+				A2AF3B6F2B8D4E6F8A395FE6 /* monitor.c in Sources */,
+				813B07D49F784609BDD25793 /* nsgl_context.m in Sources */,
+				83BFF8328C3343438A100FC9 /* posix_tls.c in Sources */,
+				001CFBA205FB4AA586756E6F /* vulkan.c in Sources */,
+				8F928B15D3CA4F179AF450E5 /* window.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,7 +469,7 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63C010875F145869A26FCE1 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps/glad.c */,
+				B63C010875F145869A26FCE1 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,10 +477,11 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D039EF20104173BF34F5CC /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/shader.cpp */,
-				5A2018920DA643E99AA359E6 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.cpp */,
-				6F1C4F5ED03648099FFE6C20 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/main.cpp */,
-				50939D25E8BD4DC281A436F9 /* /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.cpp */,
+				45D039EF20104173BF34F5CC /* shader.cpp in Sources */,
+				5A2018920DA643E99AA359E6 /* Ship.cpp in Sources */,
+				30F062AD257BEDE800368877 /* lodepng.cpp in Sources */,
+				6F1C4F5ED03648099FFE6C20 /* main.cpp in Sources */,
+				50939D25E8BD4DC281A436F9 /* myAstroid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,19 +545,30 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -649,7 +579,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -658,7 +588,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -669,7 +599,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -678,7 +608,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -701,20 +631,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INFOPLIST_FILE = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/RelWithDebInfo/libglfw3.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/RelWithDebInfo/libglad.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/RelWithDebInfo/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/RelWithDebInfo/libglfw3.a",
+					/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/RelWithDebInfo/libglad.a,
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/RelWithDebInfo/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = asteroids;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -737,19 +687,30 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall ";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -762,9 +723,15 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "       -DNDEBUG ";
@@ -774,7 +741,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -785,7 +752,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -794,7 +761,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -805,7 +772,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -814,7 +781,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -825,7 +792,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -834,7 +801,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -857,9 +824,15 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "   ";
@@ -869,7 +842,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -880,7 +853,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -889,7 +862,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -902,19 +875,30 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -927,19 +911,29 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/src",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "   -fPIC -Wall ";
+				OTHER_CFLAGS = (
+					"-fPIC",
+					"-Wall",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -952,20 +946,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INFOPLIST_FILE = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "   ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Debug/libglfw3.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/Debug/libglad.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Debug/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Debug/libglfw3.a",
+					/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/Debug/libglad.a,
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Debug/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = asteroids;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -986,7 +1000,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -995,7 +1009,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1008,9 +1022,15 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG ";
@@ -1020,7 +1040,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -1031,7 +1051,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -1040,7 +1060,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1053,9 +1073,15 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG ";
@@ -1065,7 +1091,7 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1078,20 +1104,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INFOPLIST_FILE = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/MinSizeRel/libglfw3.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/MinSizeRel/libglad.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/MinSizeRel/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/MinSizeRel/libglfw3.a",
+					/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/MinSizeRel/libglad.a,
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/MinSizeRel/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = asteroids;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
@@ -1104,20 +1150,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders","/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include");
+				HEADER_SEARCH_PATHS = (
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/deps",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/common",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/glfw-3.2/include",
+				);
 				INFOPLIST_FILE = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/CMakeFiles/asteroids.dir/Info.plist;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Release/libglfw3.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/Release/libglad.a /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Release/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Release/libglfw3.a",
+					/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/Release/libglad.a,
+					"/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build/glfw-3.2/src/Release/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = asteroids;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/final_build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
