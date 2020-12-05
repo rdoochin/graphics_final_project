@@ -2,8 +2,12 @@
 
 using namespace Angel;
 
-Ship ship;
+Ship ship = Ship(0.99, 0.93, 0.93);
+Ship ship2 = Ship(-0.99, -0.93, -0.93);
 myAstroid astroid;
+Paddle paddle;
+
+
 
 static void error_callback(int error, const char* description)
 {
@@ -14,10 +18,35 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
 {
   if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
     glfwSetWindowShouldClose(window, GLFW_TRUE);
-  if (key == GLFW_KEY_LEFT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-    ship.rotateLeft();
-  if (key == GLFW_KEY_RIGHT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-    ship.rotateRight();
+  if (key == GLFW_KEY_UP && (action == GLFW_PRESS || action == GLFW_REPEAT))
+      if(action == GLFW_PRESS){
+        ship.start_moving_up();
+      }
+      if(action == GLFW_RELEASE){
+        ship.stop_moving_up();
+      }
+  if (key == GLFW_KEY_DOWN && (action == GLFW_PRESS || action == GLFW_REPEAT))
+      if(action == GLFW_PRESS){
+        ship.start_moving_down();
+      }
+      if(action == GLFW_RELEASE){
+        ship.stop_moving_down();
+      }
+// Second paddle.
+    if (key == GLFW_KEY_W && (action == GLFW_PRESS || action == GLFW_REPEAT))
+        if(action == GLFW_PRESS){
+          ship2.start_moving_up();
+        }
+        if(action == GLFW_RELEASE){
+          ship2.stop_moving_up();
+        }
+    if (key == GLFW_KEY_S && (action == GLFW_PRESS || action == GLFW_REPEAT))
+        if(action == GLFW_PRESS){
+          ship2.start_moving_down();
+        }
+        if(action == GLFW_RELEASE){
+          ship2.stop_moving_down();
+        }
   if (key == GLFW_KEY_SPACE){
     if(action == GLFW_PRESS){
       ship.start_thruster();
@@ -26,29 +55,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
       ship.stop_thruster();
     }
   }
-  if (key == GLFW_KEY_Z && action == GLFW_PRESS){
-    //!!!!!!!!Fire bullet
-  }
     
-// for astroid
-    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-      glfwSetWindowShouldClose(window, GLFW_TRUE);
-    if (key == GLFW_KEY_LEFT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-      astroid.rotateLeft();
-    if (key == GLFW_KEY_RIGHT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-      astroid.rotateRight();
-    if (key == GLFW_KEY_SPACE){
-      if(action == GLFW_PRESS){
-        astroid.start_thruster();
-      }
-      if(action == GLFW_RELEASE){
-        astroid.stop_thruster();
-      }
-    }
-    if (key == GLFW_KEY_Z && action == GLFW_PRESS){
-      //!!!!!!!!Fire bullet
-        ship.pew_pew();
-    }
 }
 
 void init(){
@@ -57,7 +64,9 @@ void init(){
   glHint (GL_LINE_SMOOTH_HINT, GL_NICEST);
   glHint (GL_POINT_SMOOTH_HINT, GL_NICEST);
   ship.gl_init();
+  ship2.gl_init();
   astroid.gl_init();
+  paddle.gl_init();
   
 }
 
@@ -66,7 +75,11 @@ void animate(){
   if(glfwGetTime() > 0.033){
     glfwSetTime(0.0);
     ship.update_state();
+    ship2.update_state();
     astroid.update_state();
+    paddle.update_state();
+    astroid.paddle_loc_r = ship.state.cur_location;
+    astroid.paddle_loc_l = ship2.state.cur_location;
   }
 }
 
@@ -118,12 +131,15 @@ int main(void)
     glClear(GL_COLOR_BUFFER_BIT);
     
     ship.draw(proj);
+    ship2.draw(proj);
     astroid.draw(proj);
+//    paddle.draw(proj);
     
     glfwSwapBuffers(window);
     glfwPollEvents();
       
   }
+      
   
   glfwDestroyWindow(window);
   

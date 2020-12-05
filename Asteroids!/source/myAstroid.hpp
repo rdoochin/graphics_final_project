@@ -9,8 +9,8 @@
 #define myAstroid_hpp
 
 #include <stdio.h>
-
 #include "common.h"
+//#include "common/lodepng.h"
 
 #define _MAX_SPEED 10
 #define _DAMPING 0.98
@@ -20,8 +20,8 @@
 class myAstroid{
 
   //Placeholders so everything compiles.  Customize for your ship
-  vec2 astroid_vert[7];
-  vec3 astroid_color[7];
+  vec2 astroid_vert[71];
+  vec3 astroid_color[71];
   
   //Record of the ship's state
   struct {
@@ -42,9 +42,11 @@ class myAstroid{
     mat4 modelview;
     vec2 astroid_velocity;
     vec2 astroid_acceleration;
+    
       
     bool thruster_on;    //Boolean if a thruster is on
   } state;
+    
   
   //OpenGL variables for a ship
   struct {
@@ -58,7 +60,8 @@ class myAstroid{
 
   
 public:
-  
+  vec2 paddle_loc_r;
+  vec2 paddle_loc_l;
 
   myAstroid();
   
@@ -75,7 +78,6 @@ public:
   }
     
   void update_state();
-  
   void gl_init();
   
   void draw(mat4 proj);
