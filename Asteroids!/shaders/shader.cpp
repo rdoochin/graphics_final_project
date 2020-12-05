@@ -6,4 +6,4 @@
 
 #include "shader.h"
 
-std::string shader_path = "/Users/rebekahdoochin/senior_year/graphics/module-intro-getting-started-rdoochin/module-algorithms-geam-traphics/Asteroids!/shaders/";
+std::string shader_path = "/Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/";

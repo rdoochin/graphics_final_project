@@ -36,6 +36,8 @@ myAstroid::myAstroid(){
     size_t astroid_color_bytes = 6*sizeof(vec3);
 };
 
+
+
 //Called everytime an animation tick happens
 void myAstroid::update_state(){
     state.astroid_acceleration = 0.01;
