@@ -8,6 +8,7 @@
 #include "myAstroid.hpp"
 #include "common.h"
 #include "../lodepng.hpp"
+#include <time.h>
 
 
 // //  //  //  //  //  //  // Mapping  //  //  //  //  //  //  //
@@ -52,14 +53,8 @@ void loadFreeImageTexture(const char* lpszPathName, GLuint textureID, GLuint GLt
 }
 //  //  //  //  //  //  //  end added mapping //    //  //  //  //  //
 
-//Ship constructor
+//Ball constructor
 myAstroid::myAstroid(){
-//    astroid_vert[0]= vec2(0.0, 0.0);
-//    astroid_vert[1]= vec2(0.01, 0.05);
-//    astroid_vert[2]= vec2(0.05, 0.0);
-//    astroid_vert[3]= vec2(0.0, 0.0);
-//    astroid_vert[4]= vec2(0.0, 0.0);
-//    astroid_vert[5]= vec2(0.0, 0.0);
     
     astroid_color[0]= vec3(0.0, 1.0, 0.0);
     astroid_color[1]= vec3(0.0, 1.0, 0.0);
@@ -127,41 +122,41 @@ myAstroid::myAstroid(){
         circle_colors[i] = vec3(r, g, b);
         }
     
+    srand (time(NULL));
+    state.astroid_velocity = normalize(vec2(0.5-rand()/(float)RAND_MAX, 0.5-rand()/(float)RAND_MAX))*0.3;//vec2(0.5, 0.5);
+    state.astroid_pointing = normalize(state.astroid_velocity);
 };
 
 //Called everytime an animation tick happens
 void myAstroid::update_state(){
-    std::cout<< state.astroid_cur_location  << std::endl;
+    std::cout<< normalize(state.astroid_velocity) << std::endl;
     state.astroid_acceleration = 0.09;
     // might want to uncomment this, idk yet.
-    //    state.astroid_pointing = vec2(1,-2);
+    //state.astroid_pointing = vec2(1,-2);
     
     // Dampening the velocity to lessen inertia.
     vec2 old_velocity = state.astroid_velocity;
-    state.astroid_velocity = old_velocity + (state.astroid_acceleration * 0.03);
+    state.astroid_velocity = old_velocity * 1.03;
     
     vec2 old_position = state.astroid_cur_location;
     state.astroid_cur_location = old_position + (state.astroid_velocity * 0.03);
     
-    // this doesnt work to decrease the speed of the ball
-//    vec2 old_acceleration = state.astroid_acceleration;
-//    state.astroid_acceleration = old_acceleration * 0.03;
-    
     // To keep the ball moving.
     state.modelview = Translate(state.astroid_cur_location.x, state.astroid_cur_location.y, 0.0);
     
-    // not working to slow the ball down.
-    if (state.astroid_velocity.x > 2.0) {
+    // Slowing the ball down.
+    if (state.astroid_velocity.x > 1.2) {
         state.astroid_velocity.x -= 0.3;
     }
-    if (state.astroid_velocity.x < -2.0) {
+    if (state.astroid_velocity.x < -1.2) {
         state.astroid_velocity.x += 0.3;
     }
-    if (state.astroid_cur_location.x > 2.0) {
-        state.astroid_cur_location.x -= 0.3;
+    // Slowing it with vel.y.
+    if (state.astroid_velocity.y > 1.2) {
+        state.astroid_velocity.y -= 0.3;
     }
-    if (state.astroid_cur_location.x < -2.0) {
-        state.astroid_cur_location.x += 0.3;
+    if (state.astroid_velocity.y < -1.2) {
+        state.astroid_velocity.y += 0.3;
     }
     
     // When the ball hits the right paddle.
@@ -170,24 +165,24 @@ void myAstroid::update_state(){
        (state.astroid_cur_location.y <= (paddle_loc_r.y + 0.05)) and
        (state.astroid_cur_location.y >= (paddle_loc_r.y - 0.05))){
         state.astroid_velocity.x *= -2;
-//        std::cout<< state.astroid_cur_location.y  << std::endl;
     }
     // When the ball hits the left paddle.
-    // 0.92999999 is almost the paddle's x position.
     if((state.astroid_cur_location.x <= -0.92999999) and
        (state.astroid_cur_location.y <= (paddle_loc_l.y + 0.05)) and
        (state.astroid_cur_location.y >= (paddle_loc_l.y - 0.05))){
         state.astroid_velocity.x *= -2;
     }
     // When the ball goes out on the right player's side.
-    if(state.astroid_cur_location.x > 0.93){
+    if(state.astroid_cur_location.x > 1.2){
         // Get graphic for this to appear.
         std::cout<< "Game Over!" << std::endl;
+        state.game_is_over = true;
     }
     // When the ball goes out on the left player's side.
-    if(state.astroid_cur_location.x < -0.93){
+    if(state.astroid_cur_location.x < -1.2){
         // Get graphic for this to appear.
         std::cout<< "Game Over!" << std::endl;
+        state.game_is_over = true;
     }
     // When the ball hits the top of the screen.
     if (state.astroid_cur_location.y > 0.9999){
@@ -198,21 +193,17 @@ void myAstroid::update_state(){
         state.astroid_velocity.y *= -2;
     }
     
-    if(!state.thruster_on){
-        state.astroid_acceleration = state.astroid_pointing;
+//    if(!state.thruster_on){
+//        state.astroid_acceleration = state.astroid_pointing;
+//    }
+//    else{
+//        state.astroid_acceleration = 0;
+//        state.astroid_velocity = state.astroid_velocity * 0.98;
+//    }
+    // So the ball does not bounce back on screen once the game is over.
+    if (state.game_is_over == true){
+        state.astroid_velocity = vec2(0.0, 0.0);
     }
-    else{
-        state.astroid_acceleration = 0;
-        state.astroid_velocity = state.astroid_velocity * 0.98;
-    }
-    
-//    // Phong Shading.
-//    color4 material_ambient( ((double) rand() / (RAND_MAX)), ((double) rand() / (RAND_MAX)), ((double) rand() / (RAND_MAX)), 1.0 );
-//    color4 material_diffuse( ((double) rand() / (RAND_MAX)), ((double) rand() / (RAND_MAX)), ((double) rand() / (RAND_MAX)), 1.0 );
-//    color4 material_specular( ((double) rand() / (RAND_MAX)), ((double) rand() / (RAND_MAX)), ((double) rand() / (RAND_MAX)), 1.0 );
-//
-//    //mess with this later
-//    float material_shininess = rand() % 11;
 }
 
 //Initialize the gl state and variables

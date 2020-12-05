@@ -45,6 +45,7 @@ class myAstroid{
     
       
     bool thruster_on;    //Boolean if a thruster is on
+    bool game_is_over;
   } state;
     
   
