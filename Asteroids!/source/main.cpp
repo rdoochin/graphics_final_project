@@ -5,7 +5,6 @@ using namespace Angel;
 Ship ship = Ship(0.99, 0.93, 0.93);
 Ship ship2 = Ship(-0.99, -0.93, -0.93);
 myAstroid astroid;
-Paddle paddle;
 
 
 
@@ -40,7 +39,7 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
         if(action == GLFW_RELEASE){
           ship2.stop_moving_up();
         }
-    if (key == GLFW_KEY_S && (action == GLFW_PRESS || action == GLFW_REPEAT))
+    if (key == GLFW_KEY_Z && (action == GLFW_PRESS || action == GLFW_REPEAT))
         if(action == GLFW_PRESS){
           ship2.start_moving_down();
         }
@@ -66,7 +65,6 @@ void init(){
   ship.gl_init();
   ship2.gl_init();
   astroid.gl_init();
-  paddle.gl_init();
   
 }
 
@@ -77,7 +75,6 @@ void animate(){
     ship.update_state();
     ship2.update_state();
     astroid.update_state();
-    paddle.update_state();
     astroid.paddle_loc_r = ship.state.cur_location;
     astroid.paddle_loc_l = ship2.state.cur_location;
   }
@@ -133,7 +130,6 @@ int main(void)
     ship.draw(proj);
     ship2.draw(proj);
     astroid.draw(proj);
-//    paddle.draw(proj);
     
     glfwSwapBuffers(window);
     glfwPollEvents();
