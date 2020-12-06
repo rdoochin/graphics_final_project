@@ -11,7 +11,6 @@
 class Bullet_System;
 class Ship{
 
-  //Placeholders so everything compiles.  Customize for your ship
   vec2 ship_vert[5];
   vec3 ship_color[5];
   
@@ -21,9 +20,9 @@ public:
       Bullet_System*ship_system;
     vec2 cur_location;   //Current position of the center
     float angle;         //Rotation angle
-    vec2 pointing;       //Vector pointing to the front of the ship
+    vec2 pointing;       //Vector pointing to the front of the paddle.
     
-    //This function will be helpful to keep track of the direction the ship
+    //This function will be helpful to keep track of the direction the paddle
     //is pointing
     mat2 RotateZ2D( const GLfloat theta ){
       GLfloat angle = DegreesToRadians * theta;
@@ -37,13 +36,14 @@ public:
     vec2 velocity;       //Velocity
     vec2 acceleration;
     vec2 time;
-      
-    bool thruster_on;    //Boolean if a thruster is on
+    
+    //Boolean if a thruster is on
+    bool thruster_on;
     bool move_up;
     bool move_down;
   } state;
   
-  //OpenGL variables for a ship
+  //OpenGL variables for a Paddle
   struct {
     GLuint vao;           //Vertex array object
     GLuint program;       //shader program
@@ -58,7 +58,6 @@ public:
   
 
   Ship(float x1, float x2, float x3);
-    void pew_pew();
   inline void start_thruster(){ state.thruster_on= true;}
   inline void stop_thruster() { state.thruster_on= false;}
 
@@ -68,11 +67,9 @@ public:
     inline void stop_moving_down() { state.move_down= false;}
 
   inline void rotateLeft() {
-    //Do something
     state.modelview *= RotateZ(60);
   }
   inline void rotateRight(){
-    //Do something
       state.modelview *= RotateZ(-60);
   }
     

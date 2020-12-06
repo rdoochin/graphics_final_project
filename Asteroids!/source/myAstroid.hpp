@@ -19,18 +19,17 @@
 
 class myAstroid{
 
-  //Placeholders so everything compiles.  Customize for your ship
   vec2 astroid_vert[71];
   vec3 astroid_color[71];
   
-  //Record of the ship's state
+  // Record of the ball's state.
   struct {
     vec2 astroid_cur_location;   //Current position of the center
-    float angle;         //Rotation angle
-    vec2 astroid_pointing;       //Vector pointing to the front of the ship
+    float angle;                 //Rotation angle
+    vec2 astroid_pointing;       //Vector pointing to the front of the ball.
     
-    //This function will be helpful to keep track of the direction the ship
-    //is pointing
+    //This function will be helpful to keep track of the direction the ball
+    //is pointing.
     mat2 RotateZ2D( const GLfloat theta ){
       GLfloat angle = DegreesToRadians * theta;
       mat2 c;
@@ -43,13 +42,13 @@ class myAstroid{
     vec2 astroid_velocity;
     vec2 astroid_acceleration;
     
-      
-    bool thruster_on;    //Boolean if a thruster is on
+    //Boolean if a thruster is on.
+    bool thruster_on;
     bool game_is_over;
   } state;
     
   
-  //OpenGL variables for a ship
+  //OpenGL variables for the ball.
   struct {
     GLuint vao;           //Vertex array object
     GLuint program;       //shader program
@@ -63,6 +62,8 @@ class myAstroid{
 public:
   vec2 paddle_loc_r;
   vec2 paddle_loc_l;
+  int player_1_score;
+  int player_2_score;
 
   myAstroid();
   
@@ -70,11 +71,9 @@ public:
   inline void stop_thruster() { state.thruster_on= false;}
 
   inline void rotateLeft() {
-    //Do something
     state.modelview *= RotateZ(60);
   }
   inline void rotateRight(){
-    //Do something
       state.modelview *= RotateZ(-60);
   }
     

@@ -9,4 +9,5 @@ dependencies: \
   /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/utils/mat.h \
   /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/shaders/shader.h \
   /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/Ship.h \
-  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.hpp
+  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/myAstroid.hpp \
+  /Users/rebekahdoochin/senior_year/graphics/graphics_final_project/Asteroids!/source/../lodepng.hpp

@@ -1,10 +1,3 @@
-//
-//  common.h
-//  Asteroids
-//
-//  Created by Brian Summa on 9/7/15.
-//
-//
 
 #ifndef Asteroids_common_h
 #define Asteroids_common_h
@@ -23,7 +16,6 @@ using namespace Angel;
 #include "shader.h"
 #include "Ship.h"
 #include "myAstroid.hpp"
-//#include "Bullet.hpp"
 
 
 
