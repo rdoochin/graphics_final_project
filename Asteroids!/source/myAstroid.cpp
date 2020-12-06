@@ -10,58 +10,12 @@
 #include "../lodepng.hpp"
 #include <time.h>
 
-
-// //  //  //  //  //  //  // Mapping  //  //  //  //  //  //  //
-GLuint buffer;
-GLuint vao;
-GLuint cloud_texture;
-//GLuint program;
-void loadFreeImageTexture(const char* lpszPathName, GLuint textureID, GLuint GLtex){
-  
-  std::vector<unsigned char> image;
-  unsigned int width;
-  unsigned int height;
-  //decode
-  unsigned error = lodepng::decode(image, width, height, lpszPathName, LCT_RGBA, 8);
-
-  //if there's an error, display it
-  if(error){
-    std::cout << "decoder error " << error;
-    std::cout << ": " << lodepng_error_text(error) << std::endl;
-    return;
-  }
-
-  /* the image "shall" be in RGBA_U8 format */
-
-  std::cout << "Image loaded: " << width << " x " << height << std::endl;
-  std::cout << image.size() << " pixels.\n";
-  std::cout << "Image has " << image.size()/(width*height) << "color values per pixel.\n";
-
-  GLint GL_format = GL_RGBA;
-
-  glActiveTexture( GLtex );
-  glBindTexture( GL_TEXTURE_2D, textureID );
-  glTexImage2D( GL_TEXTURE_2D, 0, GL_format, width, height, 0, GL_format, GL_UNSIGNED_BYTE, &image[0] );
-  glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT );
-  glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT );
-  glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR );
-  glTexParameterf( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR );
-  glGenerateMipmap(GL_TEXTURE_2D);
-  
-  //Put things away and free memory
-  image.clear();
-}
-//  //  //  //  //  //  //  end added mapping //    //  //  //  //  //
-
 //Ball constructor
 myAstroid::myAstroid(){
-    
-    astroid_color[0]= vec3(0.0, 1.0, 0.0);
-    astroid_color[1]= vec3(0.0, 1.0, 0.0);
-    astroid_color[2]= vec3(0.0, 1.0, 0.0);
-    astroid_color[3]= vec3(0.0, 1.0, 0.0);
-    astroid_color[4]= vec3(0.0, 1.0, 0.0);
-    astroid_color[5]= vec3(0.0, 1.0, 0.0);
+    for (int i = 0; i < 72; i++){
+        astroid_color[i] = vec3(0.0, 1.0, 0.0);
+    }
+
     
     // Number of triangles used to draw the ball.
     int triangleAmount = 71;
@@ -82,45 +36,6 @@ myAstroid::myAstroid(){
             yVal = y + (radius * sin(i * twicePi / (triangleAmount-1)));
             astroid_vert[i] = vec2(xVal,yVal);
         }
-    size_t circle_bytes = (triangleAmount+1)*sizeof(vec2);
-      vec3 *circle_colors = new vec3[triangleAmount+1];
-      GLfloat interval = (1.0/8.0);
-      GLfloat r = 0.2;
-      GLfloat g = 1.0;
-      GLfloat b = 0.0;
-      GLfloat t = 0.0;
-    for(i = 1; i < 24; i++) {
-        b += b*(1-t);
-        g -= g*t;
-        r += 0.1;
-        t = interval;
-        circle_colors[i] = vec3(r, g, b);
-        
-        }
-    // To get blue color.
-    r = 1.0;
-    g = 0.0;
-    b = 0.2;
-    t = 0.0;
-    for(i = 24; i < 48 ; i++) {
-        g += g*(1-t);
-        r -= r*t;
-        b += 0.1;
-        t = interval;
-        circle_colors[i] = vec3(r, g, b);
-        }
-    // To get green color.
-    r = 0.0;
-    g = 0.2;
-    b = 1.0;
-    t = 0.0;
-    for(i = 48; i < 72 ; i++) {
-        g += 0.1;
-        b -= b*t;
-        r += r*(1-t);
-        t = interval;
-        circle_colors[i] = vec3(r, g, b);
-        }
     
     srand (time(NULL));
     state.astroid_velocity = normalize(vec2(0.5-rand()/(float)RAND_MAX, 0.5-rand()/(float)RAND_MAX))*0.3;//vec2(0.5, 0.5);
@@ -129,10 +44,8 @@ myAstroid::myAstroid(){
 
 //Called everytime an animation tick happens
 void myAstroid::update_state(){
-    std::cout<< normalize(state.astroid_velocity) << std::endl;
+//    std::cout<< normalize(state.astroid_velocity) << std::endl;
     state.astroid_acceleration = 0.09;
-    // might want to uncomment this, idk yet.
-    //state.astroid_pointing = vec2(1,-2);
     
     // Dampening the velocity to lessen inertia.
     vec2 old_velocity = state.astroid_velocity;
@@ -145,17 +58,17 @@ void myAstroid::update_state(){
     state.modelview = Translate(state.astroid_cur_location.x, state.astroid_cur_location.y, 0.0);
     
     // Slowing the ball down.
-    if (state.astroid_velocity.x > 1.2) {
+    if (state.astroid_velocity.x > 1.0) {
         state.astroid_velocity.x -= 0.3;
     }
-    if (state.astroid_velocity.x < -1.2) {
+    if (state.astroid_velocity.x < -1.0) {
         state.astroid_velocity.x += 0.3;
     }
     // Slowing it with vel.y.
-    if (state.astroid_velocity.y > 1.2) {
+    if (state.astroid_velocity.y > 1.0) {
         state.astroid_velocity.y -= 0.3;
     }
-    if (state.astroid_velocity.y < -1.2) {
+    if (state.astroid_velocity.y < -1.0) {
         state.astroid_velocity.y += 0.3;
     }
     
@@ -165,24 +78,32 @@ void myAstroid::update_state(){
        (state.astroid_cur_location.y <= (paddle_loc_r.y + 0.05)) and
        (state.astroid_cur_location.y >= (paddle_loc_r.y - 0.05))){
         state.astroid_velocity.x *= -2;
+        player_1_score += 1;
     }
     // When the ball hits the left paddle.
     if((state.astroid_cur_location.x <= -0.92999999) and
        (state.astroid_cur_location.y <= (paddle_loc_l.y + 0.05)) and
        (state.astroid_cur_location.y >= (paddle_loc_l.y - 0.05))){
         state.astroid_velocity.x *= -2;
+        player_2_score += 1;
     }
     // When the ball goes out on the right player's side.
     if(state.astroid_cur_location.x > 1.2){
         // Get graphic for this to appear.
         std::cout<< "Game Over!" << std::endl;
+        std::cout<< "Player 1 score: " << player_1_score << std::endl;
+        std::cout<< "Player 2 score: " << player_2_score << std::endl;
         state.game_is_over = true;
+        exit(1);
     }
     // When the ball goes out on the left player's side.
     if(state.astroid_cur_location.x < -1.2){
         // Get graphic for this to appear.
         std::cout<< "Game Over!" << std::endl;
+        std::cout<< "Player 1 score: " << player_1_score << std::endl;
+        std::cout<< "Player 2 score: " << player_2_score << std::endl;
         state.game_is_over = true;
+        exit(1);
     }
     // When the ball hits the top of the screen.
     if (state.astroid_cur_location.y > 0.9999){
@@ -192,14 +113,6 @@ void myAstroid::update_state(){
     if (state.astroid_cur_location.y < -0.9999){
         state.astroid_velocity.y *= -2;
     }
-    
-//    if(!state.thruster_on){
-//        state.astroid_acceleration = state.astroid_pointing;
-//    }
-//    else{
-//        state.astroid_acceleration = 0;
-//        state.astroid_velocity = state.astroid_velocity * 0.98;
-//    }
     // So the ball does not bounce back on screen once the game is over.
     if (state.game_is_over == true){
         state.astroid_velocity = vec2(0.0, 0.0);
@@ -214,9 +127,7 @@ void myAstroid::gl_init(){
   
   GLchar* vertex_shader_source = readShaderSource(vshader.c_str());
   GLchar* fragment_shader_source = readShaderSource(fshader.c_str());
-    
-    // Added.
-//    glGenTextures( 1, &cloud_texture );
+
   
   GLvars.vertex_shader = glCreateShader(GL_VERTEX_SHADER);
   glShaderSource(GLvars.vertex_shader, 1, (const GLchar**) &vertex_shader_source, NULL);
@@ -263,69 +174,6 @@ void myAstroid::gl_init(){
   
   glVertexAttribPointer( GLvars.vpos_location, 2, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0) );
   glVertexAttribPointer( GLvars.vcolor_location, 3, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(sizeof(astroid_vert)) );
-    
-//  //  //  //  //  // Mapping //  //  //  //  //  //
-    //===== Send data to GPU ======
-//    glGenVertexArrays( 1, &vao );
-//    glGenBuffers( 1, &buffer);
-//
-//    mesh = new Mesh();
-//    mesh->makeSphere(32);
-//
-//    glGenTextures( 1, &cloud_texture );
-//
-//    std::string cloud_img = "../images/cloud_combined.png";
-//    loadFreeImageTexture(cloud_img.c_str(), cloud_texture, GL_TEXTURE1);
-//
-//    glBindVertexArray( vao );
-//    glBindBuffer( GL_ARRAY_BUFFER, buffer );
-//    /* fill to size of vertices */{
-//      std::size_t vertices_size = mesh->vertices.size();
-//      std::size_t uvs_size = mesh->uvs.size();
-//      std::size_t normals_size = mesh->normals.size();
-//      if (uvs_size < vertices_size) {
-//        mesh->uvs.resize(vertices_size);
-//        for (std::size_t j = uvs_size; j < vertices_size; ++j) {
-//          mesh->uvs[j] = vec2(0.f,0.f);
-//        }
-//      }
-//      if (normals_size < vertices_size) {
-//        mesh->normals.resize(vertices_size);
-//        for (std::size_t j = normals_size; j < vertices_size; ++j) {
-//          mesh->normals[j] = vec3(1.f,1.f,1.f);
-//        }
-//      }
-//    }
-//
-//
-//    unsigned int vertices_bytes = mesh->vertices.size()*sizeof(vec4);
-//    unsigned int normals_bytes  = mesh->normals.size()*sizeof(vec3);
-//    unsigned int uv_bytes =  mesh->uvs.size()*sizeof(vec2);
-//
-//    glBufferData( GL_ARRAY_BUFFER, vertices_bytes + normals_bytes+uv_bytes, NULL, GL_STATIC_DRAW );
-//    unsigned int offset = 0;
-//    if (vertices_bytes > 0)
-//      glBufferSubData( GL_ARRAY_BUFFER, offset, vertices_bytes, &mesh->vertices[0] );
-//    offset += vertices_bytes;
-//    if (normals_bytes > 0)
-//      glBufferSubData( GL_ARRAY_BUFFER, offset, normals_bytes,  &mesh->normals[0] );
-//    offset += normals_bytes;
-//    if (uv_bytes > 0)
-//      glBufferSubData( GL_ARRAY_BUFFER, offset, uv_bytes,  &mesh->uvs[0] );
-//
-//    glEnableVertexAttribArray( vNormal );
-//    glEnableVertexAttribArray( vPosition );
-//    glEnableVertexAttribArray( vTexCoord );
-//
-//
-//    glVertexAttribPointer( vPosition, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0) );
-//    glVertexAttribPointer( vNormal, 3, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(vertices_bytes) );
-//    glVertexAttribPointer( vTexCoord, 2, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(vertices_bytes+normals_bytes) );
-
-    //===== End: Send data to GPU ======
-    
-//    glUniform1i( glGetUniformLocation(program, "textureCloud"), 1 );
-//  //  //  //  //  //  //  //  //  //  //  //
     
   glBindVertexArray(0);
 

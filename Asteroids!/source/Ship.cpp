@@ -1,5 +1,5 @@
 #include "common.h"
-
+#include "../lodepng.hpp"
 
 // Bullet Class
 
@@ -170,7 +170,7 @@ Ship::Ship(float x1, float x2, float x3){
     GLfloat red = 0.0f;
 
     state.pointing = vec2(0,1);
-  //Set up initial state here
+  // Set up initial state of the paddle here.
     ship_vert[0] = vec2(x1,  0.0);
     ship_vert[1] = vec2(x2,  -0.05);
     ship_vert[2] = vec2(x3,  0.05);
@@ -185,21 +185,7 @@ Ship::Ship(float x1, float x2, float x3){
 //Called everytime an animation tick happens
 void Ship::update_state(){  //call bullet_s update state from here.
     state.ship_system -> update();
-
-    pew_pew();
     
-  // Things to do:
-  //a = F
-  //Force is in the direction the ship is pointing
-  //Clamp acceleration at some maximum value
-    vec2 old_velocity = state.velocity;
-    state.velocity = old_velocity + (state.acceleration * 0.03);
-    
-  // clamp velocity at a maximum value
-  // Dampen the velocity at every timestep to lessen intertia
-    vec2 old_position = state.cur_location;
-
-    state.cur_location = old_position + (state.velocity * 0.03);
   // Wrap the ship position when at the boundary
     if(state.cur_location.y >= 1){
         state.cur_location.y = -1;
@@ -239,14 +225,9 @@ void Ship::update_state(){  //call bullet_s update state from here.
         state.velocity = state.velocity * 0.98;
     }
 }
-// For firing bullets.
-void Ship::pew_pew(){
-    state.ship_system -> emit();
-}
 
 //Initialize the gl state and variables
 void Ship::gl_init(){
-  //Ship
 
     state.ship_system -> init();
     
@@ -327,18 +308,6 @@ void Ship::draw(mat4 proj){
     state.ship_system->update();
     glUniformMatrix4fv( state.ship_system->PM_location, 1, GL_TRUE, proj* state.modelview );
     glDrawArrays(GL_POINTS, 0, state.ship_system->bullets.size());
-    
-//  if(state.thruster_on){
-//    // Draw something different if the thruster is on.
-//      state.modelview *= RotateZ(-10);
-//      glClearColor(1.0,0.0,0,0);
-//      ship_vert[3] = vec2(0.0,  -0.025);
-//      ship_vert[4] = vec2(0.02,  -0.025);
-//      ship_color[3] = vec3( 1.0, 0.0, 1.0);
-//      ship_color[4] = vec3( 1.0, 0.0, 1.0);
-//  }else{
-//      glClearColor(0.0,0.0,0,0);
-//  }
 
     // moving up and down.
     if(state.move_up){
